@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<analytics xmlns="http://googleanalyticssdk.codeplex.com/ns/easytracker">
+  <!--golbal tracking ID, local tracking ID are at String/<country>.resw file-->
+  <!--<trackingId>UA-80070730-1</trackingId>-->
+  <trackingId>UA-49991686-4</trackingId><!--test Id-->
+  <appName>MyASUS</appName>
+  <appVersion>3.2.4.0</appVersion>
+  <!--<reportUncaughtExceptions>true</reportUncaughtExceptions>-->
+</analytics>

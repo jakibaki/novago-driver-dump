@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package IgnorableNamespaces="uap5 uap4 wincap3 rescap3 desktop2 com" xmlns:wincap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="B9ECED6F.ASUSKeyboardHotkeys" ProcessorArchitecture="x86" Publisher="CN=38BC0208-0916-4E44-909B-E6832F47CDE7" Version="1.0.12.0" />
+  <Properties>
+    <DisplayName>ASUS Keyboard Hotkeys</DisplayName>
+    <PublisherDisplayName>ASUSTeK COMPUTER INC.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested="10.0.17134.1" />
+  </Dependencies>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <Applications>
+    <Application EntryPoint="Windows.FullTrustApplication" Executable="ATK Package\AsKeybdHk.exe" Id="App">
+      <uap:VisualElements DisplayName="ASUS Keyboard Hotkeys" Description="ASUS Keyboard Hotkeys" BackgroundColor="#000000" Square150x150Logo="Assets\MedTile.png" Square44x44Logo="Assets\AppList.png" />
+      <Extensions>
+        <desktop:Extension EntryPoint="Windows.FullTrustApplication" Executable="ATK Package\HControl.exe" Category="windows.startupTask">
+          <desktop:StartupTask DisplayName="ASUS Keyboard Hotkeys Program" Enabled="true" TaskId="ASUSKeyboardHotkeysStartupTask" />
+        </desktop:Extension>
+        <uap5:Extension EntryPoint="Windows.FullTrustApplication" Executable="ATK Package\HControl.exe" Category="windows.appExecutionAlias">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="B9ECED6F.ASUSKeyboardHotkeys.HControl.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <mp:PhoneIdentity PhoneProductId="69c170a1-841f-4b4d-ba1d-57c654c17dff" PhonePublisherId="3769a73b-9c47-42de-ae2f-d31f4bc7b50b" />
+</Package>

@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+        var map;
+        var markers = [];
+        var locationlist = [];
+        var myLoc;
+        var myLocMarker;
+
+        var strs = [];
+        var red_pin = {
+            url: 'red_pin.png',
+            // This marker is 20 pixels wide by 32 pixels tall.
+            size: new google.maps.Size(20, 32),
+            // The origin for this image is 0,0.
+            origin: new google.maps.Point(0, 0),
+            // The anchor for this image is the base of the flagpole at 0,32.
+            anchor: new google.maps.Point(0, 32)
+        };
+
+        var blue_pin = {
+            url: 'blue_pin.png',
+            // This marker is 20 pixels wide by 32 pixels tall.
+            size: new google.maps.Size(20, 32),
+            // The origin for this image is 0,0.
+            origin: new google.maps.Point(0, 0),
+            // The anchor for this image is the base of the flagpole at 0,32.
+            anchor: new google.maps.Point(0, 32)
+        };
+
+        var orange_pin = {
+            url: 'orange_pin.png',
+            // This marker is 20 pixels wide by 32 pixels tall.
+            size: new google.maps.Size(20, 32),
+            // The origin for this image is 0,0.
+            origin: new google.maps.Point(0, 0),
+            // The anchor for this image is the base of the flagpole at 0,32.
+            anchor: new google.maps.Point(0, 32)
+        };
+
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(25, 121.5);
+            var mapOptions = {
+                zoom: 15,
+                center: myLatlng
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+            
+            if (locationlist.length > 0) {
+                addMarker();
+                map.panTo(locationlist[0]);
+            }            
+        }
+
+        function wtb_initialize() {
+            var Loc=new google.maps.LatLng(0, 0);
+            
+            var mapOptions = {
+                zoom: 5,
+                center: Loc
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+        }
+
+        function setMyLoc(lat, lon) {
+            myLoc = new google.maps.LatLng(lat, lon);
+            if (myLocMarker == null) {
+                myLocMarker = new google.maps.Marker({
+                    position: myLoc,
+                    icon: red_pin,
+                    map: map
+                });
+               
+            }
+            else{
+                myLocMarker.setPosition(myLoc);
+            }
+            map.setZoom(15);
+            map.panTo(myLoc);
+        }
+
+        function updateMyLoc(lat, lon) {
+            myLoc = new google.maps.LatLng(lat, lon);
+            myLocMarker.setPosition(myLoc);
+            map.panTo(myLoc);
+        }
+
+        function updateStoreInfo() {
+            if (locationlist.length > 0) {
+                addMarker();
+            }
+        }
+
+        function addOneMarker(location,str) {
+            var marker = new google.maps.Marker({
+                position: location,
+                icon: blue_pin,
+                map: map
+            });
+            markers.push(marker);
+
+            var infowindow = new google.maps.InfoWindow({
+                content: str
+            });
+
+            google.maps.event.addListener(marker, 'click', function () {
+                //infowindow.close();
+                resetMarkerColor();
+                //infowindow.open(map, marker);
+                marker.setIcon(orange_pin);
+            });
+            google.maps.event.addListener(infowindow, 'closeclick', function () {
+                marker.setIcon(blue_pin);
+            });
+            google.maps.event.addListener(marker, 'icon_changed', function () {
+                if (marker.getIcon().url == orange_pin.url)
+                {
+                    infowindow.open(map, marker);
+                }
+                else {
+                    infowindow.close();
+                }                
+            });
+        }
+
+        function addMarker() {
+            for (var i = 0; i < locationlist.length; i++) {
+                addOneMarker(locationlist[i],strs[i]);                
+            }
+        }
+
+        function focusOneMarker(index, lat, lon) {
+            resetMarkerColor();
+            moveCamera(lat,lon)
+            markers[index].setIcon(orange_pin);
+        }        
+
+        function resetMarkerColor() {
+            for (var i = 0; i < markers.length; i++) {
+                markers[i].setIcon(blue_pin);
+            }
+        }
+
+        function clearMarkers() {
+            for (var i = 0; i < markers.length; i++) {
+                markers[i].setMap(null);
+            }
+        }
+
+        function moveCamera(lat, lon) {
+            var location = new google.maps.LatLng(lat, lon);
+            map.panTo(location);
+        }
+
+        function addLocation(lat, lon) {
+            var location = new google.maps.LatLng(lat, lon);
+            locationlist.push(location);
+        }
+
+        function addInfoWindowsContent(s) {            
+            strs.push(s);
+        }
+
+        function clearData() {
+            clearMarkers();
+            strs = [];
+            markers = [];
+            locationlist = [];
+        }        
+
+        google.maps.event.addDomListener(window, 'load', wtb_initialize);
+
+    </script>
+</head>
+<body >
+    <div id="map-canvas"></div>
+</body>
+</html>

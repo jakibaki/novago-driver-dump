@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<State>
+	<id value="NS0001">
+		<en>ANHUI</en>
+		<cn>安徽</cn>
+		<tw>安徽</tw>
+	</id>
+	<id value="NS0002">
+		<en>BEIJING</en>
+		<cn>北京</cn>
+		<tw>北京</tw>
+	</id>
+	<id value="NS0003">
+		<en>FUJIAN</en>
+		<cn>福建</cn>
+		<tw>福建</tw>
+	</id>
+	<id value="NS0004">
+		<en>GANSU</en>
+		<cn>甘肃</cn>
+		<tw>甘肅</tw>
+	</id>
+	<id value="NS0005">
+		<en>GUANGDONG</en>
+		<cn>广东</cn>
+		<tw>廣東</tw>
+	</id>
+	<id value="NS0006">
+		<en>GUANGXI</en>
+		<cn>广西</cn>
+		<tw>廣西</tw>
+	</id>
+	<id value="NS0007">
+		<en>GUIZHOU</en>
+		<cn>贵州</cn>
+		<tw>貴州</tw>
+	</id>
+	<id value="NS0008">
+		<en>HAINAN</en>
+		<cn>海南</cn>
+		<tw>海南</tw>
+	</id>
+	<id value="NS0009">
+		<en>HEBEI</en>
+		<cn>河北</cn>
+		<tw>河北</tw>
+	</id>
+	<id value="NS0010">
+		<en>HENAN</en>
+		<cn>河南</cn>
+		<tw>河南</tw>
+	</id>
+	<id value="NS0011">
+		<en>HEILONGJIANG</en>
+		<cn>黑龙江</cn>
+		<tw>黑龍江</tw>
+	</id>
+	<id value="NS0012">
+		<en>HUBEI</en>
+		<cn>湖北</cn>
+		<tw>湖北</tw>
+	</id>
+	<id value="NS0013">
+		<en>HUNAN</en>
+		<cn>湖南</cn>
+		<tw>湖南</tw>
+	</id>
+	<id value="NS0014">
+		<en>JILIN</en>
+		<cn>吉林</cn>
+		<tw>吉林</tw>
+	</id>
+	<id value="NS0015">
+		<en>JIANGSU</en>
+		<cn>江苏</cn>
+		<tw>江蘇</tw>
+	</id>
+	<id value="NS0016">
+		<en>JIANGXI</en>
+		<cn>江西</cn>
+		<tw>江西</tw>
+	</id>
+	<id value="NS0017">
+		<en>LIAONING</en>
+		<cn>辽宁</cn>
+		<tw>遼寧</tw>
+	</id>
+	<id value="NS0018">
+		<en>NEIMENGGU</en>
+		<cn>内蒙古</cn>
+		<tw>内蒙古</tw>
+	</id>
+	<id value="NS0019">
+		<en>NINGXIA</en>
+		<cn>宁夏</cn>
+		<tw>寧夏</tw>
+	</id>
+	<id value="NS0020">
+		<en>QINGHAI</en>
+		<cn>青海</cn>
+		<tw>青海</tw>
+	</id>
+	<id value="NS0021">
+		<en>SHANDONG</en>
+		<cn>山东</cn>
+		<tw>山東</tw>
+	</id>
+	<id value="NS0022">
+		<en>SHANXI</en>
+		<cn>山西</cn>
+		<tw>山西</tw>
+	</id>
+	<id value="NS0023">
+		<en>SHANNXI</en>
+		<cn>陕西</cn>
+		<tw>陝西</tw>
+	</id>
+	<id value="NS0024">
+		<en>SHANGHAI</en>
+		<cn>上海</cn>
+		<tw>上海</tw>
+	</id>
+	<id value="NS0025">
+		<en>SICHUAN</en>
+		<cn>四川</cn>
+		<tw>四川</tw>
+	</id>
+	<id value="NS0026">
+		<en>TIANJIN</en>
+		<cn>天津</cn>
+		<tw>天津</tw>
+	</id>
+	<id value="NS0027">
+		<en>XIZANG</en>
+		<cn>西藏</cn>
+		<tw>西藏</tw>
+	</id>
+	<id value="NS0028">
+		<en>XINJIANG</en>
+		<cn>新疆</cn>
+		<tw>新疆</tw>
+	</id>
+	<id value="NS0029">
+		<en>YUNNAN</en>
+		<cn>云南</cn>
+		<tw>雲南</tw>
+	</id>
+	<id value="NS0030">
+		<en>ZHEJIANG</en>
+		<cn>浙江</cn>
+		<tw>浙江</tw>
+	</id>
+	<id value="NS0031">
+		<en>CHONGQING</en>
+		<cn>重庆</cn>
+		<tw>重慶</tw>
+	</id>
+	<id value="NS0032">
+		<en>MACAO</en>
+		<cn>澳门</cn>
+		<tw>澳門</tw>
+	</id>
+	<id value="NS0033">
+		<en>HONGKONG</en>
+		<cn>香港</cn>
+		<tw>香港</tw>
+	</id>
+</State>

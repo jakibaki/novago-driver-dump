@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="B9ECED6F.ASUSBatteryHealthCharging" ProcessorArchitecture="x86" Publisher="CN=38BC0208-0916-4E44-909B-E6832F47CDE7" Version="1.0.7.0" />
+  <Properties>
+    <DisplayName>ASUS Battery Health Charging</DisplayName>
+    <PublisherDisplayName>ASUSTeK COMPUTER INC.</PublisherDisplayName>
+    <Logo>Assets\BHCStoreLogo.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested="10.0.16299.0" />
+  </Dependencies>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <Applications>
+    <Application Id="App" Executable="ASUS Battery Health Charging\BhcApp.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ASUS Battery Health Charging" Description="ASUS Battery Health Charging" BackgroundColor="transparent" Square44x44Logo="Assets\BHCAppList.png" Square150x150Logo="Assets\BHCMedTile.png" />
+      <Extensions>
+        <desktop:Extension EntryPoint="Windows.FullTrustApplication" Executable="ASUS Battery Health Charging\BhcMgr.exe" Category="windows.startupTask">
+          <desktop:StartupTask DisplayName="ASUS Battery Health Charging Notification" Enabled="true" TaskId="BatteryHealthChargingStartupTask" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <mp:PhoneIdentity PhoneProductId="82aed5f1-c8b8-48cb-b02f-da361069f5b4" PhonePublisherId="3769a73b-9c47-42de-ae2f-d31f4bc7b50b" />
+</Package>

@@ -1,0 +1,2 @@
+Microsoft.AspNet.SignalR.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+  Microsoft.AspNet.SignalR.Client.Resources.resources

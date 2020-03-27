@@ -1,0 +1,958 @@
+﻿<AllCountry>
+  <countryabbr name="ABW">
+  <country>Aruba</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="AFG">
+  <country>Afghanistan</country>
+  <country_local>جمهوری اسلامی افغانستان </country_local>
+  </countryabbr>
+  <countryabbr name="AGO">
+  <country>Angola</country>
+  <country_local>República de Angola</country_local>
+  </countryabbr>
+  <countryabbr name="AIA">
+  <country>Anguilla</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ALB">
+  <country>Albania</country>
+  <country_local>Shqipëri / Shqipëria</country_local>
+  </countryabbr>
+  <countryabbr name="AND">
+  <country>Andorra</country>
+  <country_local>Principat d'Andorra</country_local>
+  </countryabbr>
+  <countryabbr name="ANT">
+  <country>Netherlands Antilles</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ARE">
+  <country>United Arab Emirates</country>
+  <country_local>دولة الإمارات العربية المتحدة‎</country_local>
+  </countryabbr>
+  <countryabbr name="ARG">
+  <country>Argentina</country>
+  <country_local>República Argentina</country_local>
+  </countryabbr>
+  <countryabbr name="ARM">
+  <country>Armenia</country>
+  <country_local>Hayastan</country_local>
+  </countryabbr>
+  <countryabbr name="ASM">
+  <country>American Samoa</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ATA">
+  <country>Antarctica</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ATF">
+  <country>French Southern Territories</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ATG">
+  <country>Antigua and Barbuda</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="AUS">
+  <country>Australia</country>
+  <country_local>Australia</country_local>
+  </countryabbr>
+  <countryabbr name="AUT">
+  <country>Austria</country>
+  <country_local>Österreich</country_local>
+  </countryabbr>
+  <countryabbr name="AZE">
+  <country>Azerbaijan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BDI">
+  <country>Burundi</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BEL">
+  <country>Belgium (netherlands)</country>
+  <country_local>België (Nederlands)</country_local>
+  </countryabbr>
+  <countryabbr name="BEN">
+  <country>Benin</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BFA">
+  <country>Burkina Faso</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BGD">
+  <country>Bangladesh</country>
+  <country_local>বাংলাদেশ</country_local>
+  </countryabbr>
+  <countryabbr name="BGR">
+  <country>Bulgaria</country>
+  <country_local>България / Balgariya</country_local>
+  </countryabbr>
+  <countryabbr name="BHR">
+  <country>Bahrain</country>
+  <country_local>مملكة البحرين</country_local>
+  </countryabbr>
+  <countryabbr name="BHS">
+  <country>Bahamas</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BIH">
+  <country>Bosnia/Herzegowina</country>
+  <country_local>Bosna i Hercegovina</country_local>
+  </countryabbr>
+  <countryabbr name="BLR">
+  <country>Belarus</country>
+  <country_local>Беларусь</country_local>
+  </countryabbr>
+  <countryabbr name="BLZ">
+  <country>Belize</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BMU">
+  <country>Bermuda</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BOL">
+  <country>Bolivia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BRA">
+  <country>Brazil</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BRB">
+  <country>Barbados</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BRN">
+  <country>Brunei Darussalam</country>
+  <country_local>بروني دارالسلام</country_local>
+  </countryabbr>
+  <countryabbr name="BTN">
+  <country>Bhutan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BVT">
+  <country>Bouvet Island</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="BWA">
+  <country>Botswana</country>
+  <country_local>Lefatshe la Botswana</country_local>
+  </countryabbr>
+  <countryabbr name="CAF">
+  <country>Central African Republic</country>
+  <country_local>République centrafricaine</country_local>
+  </countryabbr>
+  <countryabbr name="CAN">
+  <country>Canada</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CCK">
+  <country>Cocos (Keeling) Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CHE">
+  <country>Switzerland</country>
+  <country_local>Suisse</country_local>
+  </countryabbr>
+  <countryabbr name="CHL">
+  <country>Chile</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CHN">
+  <country>China</country>
+  <country_local>中國</country_local>
+  </countryabbr>
+  <countryabbr name="CIV">
+  <country>Cote D'Ivoire</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CMR">
+  <country>Cameroon</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="COG">
+  <country>Congo</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="COK">
+  <country>Cook Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="COL">
+  <country>Colombia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="COM">
+  <country>Comoros</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CPV">
+  <country>Cape Verde</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CRI">
+  <country>Costa Rica</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CUB">
+  <country>Cuba</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CXR">
+  <country>Christmas Island</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CYM">
+  <country>Cayman Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="CYP">
+  <country>Cyprus</country>
+  <country_local>Euro</country_local>
+  </countryabbr>
+  <countryabbr name="CZE">
+  <country>Czech Republic</country>
+  <country_local>Česká republika</country_local>
+  </countryabbr>
+  <countryabbr name="DEU">
+  <country>Germany</country>
+  <country_local>Deutschland</country_local>
+  </countryabbr>
+  <countryabbr name="DJI">
+  <country>Djibouti</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="DMA">
+  <country>Dominica</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="DNK">
+  <country>Denmark</country>
+  <country_local>Danmark</country_local>
+  </countryabbr>
+  <countryabbr name="DOM">
+  <country>Dominican Republic</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="DZA">
+  <country>Algeria</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ECU">
+  <country>Ecuador</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="EGY">
+  <country>Egypt</country>
+  <country_local>مصر‎</country_local>
+  </countryabbr>
+  <countryabbr name="ERI">
+  <country>Eritrea</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ESH">
+  <country>Western Sahara</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ESP">
+  <country>Spain</country>
+  <country_local>España</country_local>
+  </countryabbr>
+  <countryabbr name="EST">
+  <country>Estonia</country>
+  <country_local>Eesti</country_local>
+  </countryabbr>
+  <countryabbr name="ETH">
+  <country>Ethiopia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="FIN">
+  <country>Finland</country>
+  <country_local>Suomi</country_local>
+  </countryabbr>
+  <countryabbr name="FJI">
+  <country>Fiji</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="FLK">
+  <country>Falkland Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="FRA">
+  <country>France</country>
+  <country_local>France</country_local>
+  </countryabbr>
+  <countryabbr name="FRB">
+  <country>Belgium (francais)</country>
+  <country_local>Belgique</country_local>
+  </countryabbr>
+  <countryabbr name="FRO">
+  <country>Faroe Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="FSM">
+  <country>Micronesia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GAB">
+  <country>Gabon</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GBR">
+  <country>United Kingdom</country>
+  <country_local>United Kingdom</country_local>
+  </countryabbr>
+  <countryabbr name="GEO">
+  <country>Georgia</country>
+  <country_local>საქართველო</country_local>
+  </countryabbr>
+  <countryabbr name="GHA">
+  <country>Ghana</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GIB">
+  <country>Gibraltar</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GIN">
+  <country>Guinea</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GLP">
+  <country>Guadeloupe</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GMB">
+  <country>Gambia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GNB">
+  <country>Guinea-Bissau</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GNQ">
+  <country>Equatorial Guinea</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GRC">
+  <country>Greece</country>
+  <country_local>Ελλάδα</country_local>
+  </countryabbr>
+  <countryabbr name="GRD">
+  <country>Grenada</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GRL">
+  <country>Greenland</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GTM">
+  <country>Guatemala</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GUF">
+  <country>French Guiana</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GUM">
+  <country>Guam</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="GUY">
+  <country>Guyana</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="HKG">
+  <country>Hong Kong</country>
+  <country_local>香港</country_local>
+  </countryabbr>
+  <countryabbr name="HMD">
+  <country>Heard and Mc Donald Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="HND">
+  <country>Honduras</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="HRV">
+  <country>Croatia</country>
+  <country_local>Hrvatska</country_local>
+  </countryabbr>
+  <countryabbr name="HTI">
+  <country>Haiti</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="HUN">
+  <country>Hungary</country>
+  <country_local>Magyarország</country_local>
+  </countryabbr>
+  <countryabbr name="IDN">
+  <country>Indonesia</country>
+  <country_local>Republik Indonesia</country_local>
+  </countryabbr>
+  <countryabbr name="IND">
+  <country>India</country>
+  <country_local>भारत गणराज्य </country_local>
+  </countryabbr>
+  <countryabbr name="IOT">
+  <country>British Indian Ocean Territory</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="IRL">
+  <country>Ireland</country>
+  <country_local>Ireland</country_local>
+  </countryabbr>
+  <countryabbr name="IRN">
+  <country>Iran</country>
+  <country_local>ایران</country_local>
+  </countryabbr>
+  <countryabbr name="IRQ">
+  <country>Iraq</country>
+  <country_local>العراق </country_local>
+  </countryabbr>
+  <countryabbr name="ISL">
+  <country>Iceland</country>
+  <country_local>Ísland</country_local>
+  </countryabbr>
+  <countryabbr name="ISR">
+  <country>Israel</country>
+  <country_local>מְדִינַת יִשְׂרָאֵל  /  دَوْلَةُ إِسْرَائِيلَ</country_local>
+  </countryabbr>
+  <countryabbr name="ITA">
+  <country>Italy</country>
+  <country_local>Italia</country_local>
+  </countryabbr>
+  <countryabbr name="JAM">
+  <country>Jamaica</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="JOR">
+  <country>Jordan</country>
+  <country_local>L'Ürdünn</country_local>
+  </countryabbr>
+  <countryabbr name="JPN">
+  <country>Japan</country>
+  <country_local>日本国</country_local>
+  </countryabbr>
+  <countryabbr name="KAZ">
+  <country>Kazakhstan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="KEN">
+  <country>Kenya</country>
+  <country_local>Jamhuri ya Kenya</country_local>
+  </countryabbr>
+  <countryabbr name="KGZ">
+  <country>Kyrgyzstan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="KHM">
+  <country>Cambodia</country>
+  <country_local>कम्बोजदेश</country_local>
+  </countryabbr>
+  <countryabbr name="KIR">
+  <country>Kiribati</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="KNA">
+  <country>Saint Kitts and Nevis</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="KOR">
+  <country>Korea, Republic of</country>
+  <country_local>대한민국</country_local>
+  </countryabbr>
+  <countryabbr name="KWT">
+  <country>Kuwait</country>
+  <country_local>دولة الكويت</country_local>
+  </countryabbr>
+  <countryabbr name="LAO">
+  <country>Lao People`s Democratic Republic</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="LBN">
+  <country>Lebanon</country>
+  <country_local>اَلْجُمْهُورِيَّة اَللُّبْنَانِيَّة </country_local>
+  </countryabbr>
+  <countryabbr name="LBR">
+  <country>Liberia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="LBY">
+  <country>Libyan Arab Jamahiriya</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="LCA">
+  <country>Saint Lucia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="LIE">
+  <country>Liechtenstein</country>
+  <country_local>Liechtenstein</country_local>
+  </countryabbr>
+  <countryabbr name="LKA">
+  <country>Sri Lanka</country>
+  <country_local>இலங்கை ஜனநாயக சமத்துவ </country_local>
+  </countryabbr>
+  <countryabbr name="LSO">
+  <country>Lesotho</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="LTU">
+  <country>Lithuania</country>
+  <country_local>Lietuva</country_local>
+  </countryabbr>
+  <countryabbr name="LUX">
+  <country>Luxembourg</country>
+  <country_local>Lëtzebuerg</country_local>
+  </countryabbr>
+  <countryabbr name="LVA">
+  <country>Latvia</country>
+  <country_local>Latvija</country_local>
+  </countryabbr>
+  <countryabbr name="MAC">
+  <country>Macau</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MAR">
+  <country>Morocco</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MCO">
+  <country>Monaco</country>
+  <country_local>Monaco</country_local>
+  </countryabbr>
+  <countryabbr name="MDA">
+  <country>Moldova</country>
+  <country_local>Moldova</country_local>
+  </countryabbr>
+  <countryabbr name="MDG">
+  <country>Madagascar</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MDV">
+  <country>Maldives</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MEX">
+  <country>Mexico</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MHL">
+  <country>Marshall Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MKD">
+  <country>Macedonia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MLI">
+  <country>Mali</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MLT">
+  <country>Malta</country>
+  <country_local>Malta</country_local>
+  </countryabbr>
+  <countryabbr name="MMR">
+  <country>Myanmar</country>
+  <country_local>Pyidaunzu Thanmăda Myăma Nainngandaw</country_local>
+  </countryabbr>
+  <countryabbr name="MNG">
+  <country>Mongolia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MNP">
+  <country>Northern Mariana Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MOZ">
+  <country>Mozambique</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MRT">
+  <country>Mauritania</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MSR">
+  <country>Montserrat</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MTQ">
+  <country>Martinique</country>
+  <country_local>Martinique </country_local>
+  </countryabbr>
+  <countryabbr name="MUS">
+  <country>Mauritius</country>
+  <country_local>Republik Moris</country_local>
+  </countryabbr>
+  <countryabbr name="MWI">
+  <country>Malawi</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="MYS">
+  <country>Malaysia</country>
+  <country_local>Persekutuan Malaysia </country_local>
+  </countryabbr>
+  <countryabbr name="MYT">
+  <country>Mayotte</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NAM">
+  <country>Namibia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NCL">
+  <country>New Caledonia</country>
+  <country_local>Nouvelle-Calédonie</country_local>
+  </countryabbr>
+  <countryabbr name="NER">
+  <country>Niger</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NFK">
+  <country>Norfolk Island</country>
+  <country_local>Norfuk Ailen</country_local>
+  </countryabbr>
+  <countryabbr name="NGA">
+  <country>Nigeria</country>
+  <country_local>Republik Nijeriya</country_local>
+  </countryabbr>
+  <countryabbr name="NIC">
+  <country>Nicaragua</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NIU">
+  <country>Niue</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NLD">
+  <country>Netherlands</country>
+  <country_local>Nederland</country_local>
+  </countryabbr>
+  <countryabbr name="NOR">
+  <country>Norway</country>
+  <country_local>Norge</country_local>
+  </countryabbr>
+  <countryabbr name="NPL">
+  <country>Nepal</country>
+  <country_local>सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल</country_local>
+  </countryabbr>
+  <countryabbr name="NRU">
+  <country>Nauru</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="NZL">
+  <country>New Zealand</country>
+  <country_local>New Zealand</country_local>
+  </countryabbr>
+  <countryabbr name="OMN">
+  <country>Oman</country>
+  <country_local>لطنة عمان  </country_local>
+  </countryabbr>
+  <countryabbr name="PAK">
+  <country>Pakistan</country>
+  <country_local>پاکِستان</country_local>
+  </countryabbr>
+  <countryabbr name="PAN">
+  <country>Panama</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PCN">
+  <country>Pitcairn</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PER">
+  <country>Peru</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PHL">
+  <country>Philippines</country>
+  <country_local>Pilipinas </country_local>
+  </countryabbr>
+  <countryabbr name="PLW">
+  <country>Palau</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PNG">
+  <country>Papua New Guinea</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="POL">
+  <country>Poland</country>
+  <country_local>Polska</country_local>
+  </countryabbr>
+  <countryabbr name="PRI">
+  <country>Puerto Rico</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PRK">
+  <country>Korea, Democratic People`s Republic of</country>
+  <country_local>조선민주주의인민공화국</country_local>
+  </countryabbr>
+  <countryabbr name="PRT">
+  <country>Portugal</country>
+  <country_local>Portugal</country_local>
+  </countryabbr>
+  <countryabbr name="PRY">
+  <country>Paraguay</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="PYF">
+  <country>French Polynesia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="QAT">
+  <country>Qatar</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="REU">
+  <country>Reunion</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ROM">
+  <country>Romania</country>
+  <country_local>România</country_local>
+  </countryabbr>
+  <countryabbr name="RUS">
+  <country>Russia</country>
+  <country_local>Россия</country_local>
+  </countryabbr>
+  <countryabbr name="RWA">
+  <country>Rwanda</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SAU">
+  <country>Saudi Arabia</country>
+  <country_local>المملكة العربية السعودية</country_local>
+  </countryabbr>
+  <countryabbr name="SCG">
+  <country>Serbia and Montenegro</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SDN">
+  <country>Sudan</country>
+  <country_local>جمهورية السودان</country_local>
+  </countryabbr>
+  <countryabbr name="SEN">
+  <country>Senegal</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SGP">
+  <country>Singapore</country>
+  <country_local>Singapore</country_local>
+  </countryabbr>
+  <countryabbr name="SGS">
+  <country>South Georgia and the South Sandwich Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SHN">
+  <country>St. Helena</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SJM">
+  <country>Svalbard and Jan Mayen Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SLB">
+  <country>Solomon Islands</country>
+  <country_local>Solomon Islands</country_local>
+  </countryabbr>
+  <countryabbr name="SLE">
+  <country>Sierra Leone</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SLV">
+  <country>El Salvador</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SMR">
+  <country>San Marino</country>
+  <country_local>San Marino</country_local>
+  </countryabbr>
+  <countryabbr name="SOM">
+  <country>Somalia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SPM">
+  <country>St. Pierre and Miquelon</country>
+  <country_local>St. Pierre and Miquelon</country_local>
+  </countryabbr>
+  <countryabbr name="STP">
+  <country>Sao Tome and Principe</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SUR">
+  <country>Suriname</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SVK">
+  <country>Slovakia</country>
+  <country_local>Slovensko</country_local>
+  </countryabbr>
+  <countryabbr name="SVN">
+  <country>Slovenia</country>
+  <country_local>Slovenija</country_local>
+  </countryabbr>
+  <countryabbr name="SWE">
+  <country>Sweden</country>
+  <country_local>Sverige</country_local>
+  </countryabbr>
+  <countryabbr name="SWZ">
+  <country>Swaziland</country>
+  <country_local>Swatini</country_local>
+  </countryabbr>
+  <countryabbr name="SYC">
+  <country>Seychelles</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="SYR">
+  <country>Syrian Arab Republic</country>
+  <country_local>جمهورية العربية السورية  </country_local>
+  </countryabbr>
+  <countryabbr name="TCA">
+  <country>Turks and Caicos Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TCD">
+  <country>Chad</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TGO">
+  <country>Togo</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="THA">
+  <country>Thailand</country>
+  <country_local>ราชอาณาจักรไทย</country_local>
+  </countryabbr>
+  <countryabbr name="TJK">
+  <country>Tajikistan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TKL">
+  <country>Tokelau</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TKM">
+  <country>Turkmenistan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TMP">
+  <country>East Timor</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TON">
+  <country>Tonga</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TTO">
+  <country>Trinidad and Tobago</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TUN">
+  <country>Tunisia</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TUR">
+  <country>Turkey</country>
+  <country_local>Türkiye</country_local>
+  </countryabbr>
+  <countryabbr name="TUV">
+  <country>Tuvalu</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="TWN">
+  <country>TAIWAN, R.O.C.</country>
+  <country_local>台灣</country_local>
+  </countryabbr>
+  <countryabbr name="TZA">
+  <country>Tanzania</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="UGA">
+  <country>Uganda</country>
+  <country_local>Jamhuri ya Uganda</country_local>
+  </countryabbr>
+  <countryabbr name="UKR">
+  <country>Ukraine</country>
+  <country_local>Україна</country_local>
+  </countryabbr>
+  <countryabbr name="UMI">
+  <country>United States Minor Outlying Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="URY">
+  <country>Uruguay</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="USA">
+  <country>United States</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="UZB">
+  <country>Uzbekistan</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="VAT">
+  <country>Holy See (Vatican City)</country>
+  <country_local>Stato della Città del Vaticano </country_local>
+  </countryabbr>
+  <countryabbr name="VCT">
+  <country>Saint Vincent and the Grenadines</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="VEN">
+  <country>Venezuela</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="VGB">
+  <country>Virgin Islands (British)</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="VIR">
+  <country>Virgin Islands (U.S.)</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="VNM">
+  <country>Viet Nam</country>
+  <country_local>Việt Nam</country_local>
+  </countryabbr>
+  <countryabbr name="VUT">
+  <country>Vanuatu</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="WLF">
+  <country>Wallis and Futuna Islands</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="WSM">
+  <country>Samoa</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="YEM">
+  <country>Yemen</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ZAF">
+  <country>South Africa</country>
+  <country_local>Republiek van Suid-Afrika </country_local>
+  </countryabbr>
+  <countryabbr name="ZAR">
+  <country>Zaire</country>
+  <country_local>NULL</country_local>
+  </countryabbr>
+  <countryabbr name="ZMB">
+  <country>Zambia</country>
+  <country_local>Zambia</country_local>
+  </countryabbr>
+  <countryabbr name="ZWE">
+  <country>Zimbabwe</country>
+  <country_local>Simudzai Mureza wedu WeZimbabwe</country_local>
+  </countryabbr>
+</AllCountry>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Survey>
+  <Question QID="16" Title ="1.您擁有電腦嗎？ (假如是，您購買的是何品牌？) #16">
+    <Ans AnsID="1">No</Ans>
+    <Ans AnsID="2">Acer</Ans>
+    <Ans AnsID="3">Apple</Ans>
+    <Ans AnsID="4">ASUS</Ans>
+    <Ans AnsID="5">Dell</Ans>
+    <Ans AnsID="6">HP</Ans>
+    <Ans AnsID="7">Sony</Ans>
+    <Ans AnsID="8">其他</Ans>
+  </Question>
+
+  <Question QID="17" Title ="2.您購買過華碩產品嗎？ (假如有，請選擇您購買的產品類別)(多選) #17#M">
+    <Ans AnsID="1">No</Ans>
+    <Ans AnsID="2">主機板</Ans>
+    <Ans AnsID="3">顯示卡</Ans>
+    <Ans AnsID="4">筆記型電腦</Ans>
+    <Ans AnsID="5">Eee PC</Ans>
+    <Ans AnsID="6">行動電話</Ans>
+    <Ans AnsID="7">液晶銀幕</Ans>
+    <Ans AnsID="8">桌上電腦</Ans>
+    <Ans AnsID="9">其他</Ans>
+  </Question>
+
+  <Question QID="18" Title ="3.未來半年內您有考慮購買電腦嗎？ (假如是, 您會選擇何種？) #18">
+    <Ans AnsID="1">No</Ans>
+    <Ans AnsID="2">DIY組裝電腦</Ans>
+    <Ans AnsID="3">品牌電腦</Ans>
+    <Ans AnsID="4">筆記型電腦</Ans>
+    <Ans AnsID="5">EeePC</Ans>
+    <Ans AnsID="6">家庭劇院電腦 (HTPC)</Ans>
+    <Ans AnsID="7">觸控銀幕電腦</Ans>
+    <Ans AnsID="8">其他</Ans>
+  </Question>
+
+  <Question QID="18" Title ="4.當您購買電腦時，您會從何處獲得主要的參考資訊？ #19">
+    <Ans AnsID="1">電視廣告</Ans>
+    <Ans AnsID="2">廣播</Ans>
+    <Ans AnsID="3">雜誌</Ans>
+    <Ans AnsID="4">報紙</Ans>
+    <Ans AnsID="5">網路</Ans>
+    <Ans AnsID="6">朋友推薦</Ans>
+    <Ans AnsID="7">店員推薦</Ans>
+    <Ans AnsID="8">其他</Ans>
+  </Question>
+
+  <Question QID="18" Title ="5.影響您最後作決定是否要購買電腦的三個關鍵為何？(請選三項) #20#M">
+    <Ans AnsID="1">價格</Ans>
+    <Ans AnsID="2">品牌形象</Ans>
+    <Ans AnsID="3">規格</Ans>
+    <Ans AnsID="4">品質</Ans>
+    <Ans AnsID="5">外觀設計</Ans>
+    <Ans AnsID="6">售後服務</Ans>
+    <Ans AnsID="7">其他</Ans>
+  </Question>
+</Survey>

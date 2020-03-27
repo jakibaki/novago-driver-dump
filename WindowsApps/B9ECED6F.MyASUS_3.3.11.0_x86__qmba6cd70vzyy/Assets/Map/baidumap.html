@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=TutMBwpEYtEGM64Z8VhsbQbP"></script>
+
+	<title>百度地图的Hello, World</title>
+
+	<style type="text/css">
+		body, html, #allmap {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			margin: 0;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="allmap"></div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+	// 百度地图API功能
+
+	var map = new BMap.Map("allmap");            // 创建Map实例
+
+	var point = new BMap.Point(116.404, 39.915);  // 创建点坐标
+
+	map.centerAndZoom(point, 15);               // 初始化地图,设置中心点坐标和地图级别。
+
+	map.enableScrollWheelZoom(true);                //启用滚轮放大缩小
+
+	map.enableDragging();
+
+	map.enableAutoResize();
+
+	map.enableContinuousZoom();
+
+	map.enablePinchToZoom();
+
+	map.enableDoubleClickZoom();
+
+	map.enableInertialDragging();
+
+    //<ysc20150127+>
+	// 添加带有定位的导航控件
+	var navigationControl = new BMap.NavigationControl({
+	    // 靠左上角位置
+	    anchor: BMAP_ANCHOR_TOP_RIGHT,
+	    // LARGE类型
+	    type: BMAP_NAVIGATION_CONTROL_LARGE,
+	    // 启用显示定位
+	    enableGeolocation: true
+	});
+	map.addControl(navigationControl);
+	// 添加定位控件
+	var geolocationControl = new BMap.GeolocationControl();
+	geolocationControl.addEventListener("locationSuccess", function (e) {
+	    // 定位成功事件
+	    var address = '';
+	    address += e.addressComponent.province;
+	    address += e.addressComponent.city;
+	    address += e.addressComponent.district;
+	    address += e.addressComponent.street;
+	    address += e.addressComponent.streetNumber;
+	    alert("当前定位地址为：" + address);
+	});
+	geolocationControl.addEventListener("locationError", function (e) {
+	    // 定位失败事件
+	    alert(e.message);
+	});
+    //<ysc20150127->
+
+	var red_pin = new BMap.Icon("red_pin.png", new BMap.Size(20, 32), {
+	    anchor: new BMap.Size(0, 32)
+	});
+
+	var blue_pin = new BMap.Icon("blue_pin.png", new BMap.Size(20, 32), {
+	    anchor: new BMap.Size(0, 32)
+	});
+
+	var loclist = [];
+	var markerlist = [];
+	var contents = [];
+	var infoWindowlist = [];
+
+	var opts = {
+	    enableMessage: false,
+	    enableCloseOnClick: false,
+	    offset: new BMap.Size(0, -35)
+	}
+
+	function mapInit() {
+	    if (loclist.length > 0) {
+	        for (var i = 0; i < loclist.length; i++) {
+	            addOneMarker(loclist[i],i);
+	        }
+	        map.centerAndZoom(loclist[0], 15);
+	    }	    
+	}
+
+	function addOneMarker(location,index) {
+	    var marker = new BMap.Marker(location, { icon: blue_pin });
+	    marker.setLabel(index);
+	    
+	    var infoWindow = new BMap.InfoWindow(contents[index], opts);
+	    infoWindowlist.push(infoWindow);
+	    marker.addEventListener("click", function () {	        
+	        var infoWindow = infoWindowlist[index];
+	        map.openInfoWindow(infoWindow, loclist[index]);
+	    });
+
+	    markerlist.push(marker);
+	    map.addOverlay(marker);
+	}	
+
+	function addLocationToList(lat,lon) {
+	    var loc = new BMap.Point(lon, lat);
+	    loclist.push(loc);
+	}
+
+	function resetMarkersColor() {
+	    for (var i = 0; i < markerlist.length; i++) {
+	        var marker = markerlist[i];
+	        marker.setIcon(blue_pin);
+	    }
+	}
+
+	function focusOneMarker(index) {
+	    resetMarkersColor();
+	    var marker = markerlist[index];
+	    marker.setIcon(red_pin);
+	    map.centerAndZoom(loclist[index], 15);
+	    map.openInfoWindow(infoWindowlist[index], loclist[index]);
+	}
+
+	function setServiceCenterInfo(content) {
+	    contents.push(content);
+	}
+
+	function clearData() {
+	    map.clearOverlays();
+	    loclist = [];
+	    markerlist = [];
+	    contents = [];
+	    infoWindowlist = [];
+	}
+
+</script>

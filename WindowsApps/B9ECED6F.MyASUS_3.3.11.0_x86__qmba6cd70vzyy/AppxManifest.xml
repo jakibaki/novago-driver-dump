@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap mp rescap desktop uap3 build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    這個套件資訊清單檔案由建置流程產生。
+
+    對這個檔案所做的變更將在重新產生檔案時遺失。若要更正這個檔案中的錯誤，請編輯來源 .appxmanifest 檔案。
+
+    如需有關套件資訊清單檔案的詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="B9ECED6F.MyASUS" Publisher="CN=38BC0208-0916-4E44-909B-E6832F47CDE7" Version="3.3.11.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="2b3a6e49-d2ff-48e8-bbfa-2f2d7c680dec" PhonePublisherId="3769a73b-9c47-42de-ae2f-d31f4bc7b50b" />
+  <Properties>
+    <DisplayName>MyASUS-Service Center</DisplayName>
+    <PublisherDisplayName>ASUSTeK COMPUTER INC.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <!--<TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />-->
+    <!--<TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14332.0" MaxVersionTested="10.0.14393.33" />-->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested="10.0.14393.33" />
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.1.4" MinVersion="1.4.24201.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.22929.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Framework.1.3" MinVersion="1.3.24201.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="EN" />
+    <Resource Language="EN-GB" />
+    <Resource Language="AR" />
+    <Resource Language="CS" />
+    <Resource Language="DA" />
+    <Resource Language="DE" />
+    <Resource Language="ES" />
+    <Resource Language="FI" />
+    <Resource Language="FR" />
+    <Resource Language="HE" />
+    <Resource Language="HU" />
+    <Resource Language="ID" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="NB" />
+    <Resource Language="NL" />
+    <Resource Language="PL" />
+    <Resource Language="PT-BR" />
+    <Resource Language="PT-PT" />
+    <Resource Language="RO" />
+    <Resource Language="RU" />
+    <Resource Language="SK" />
+    <Resource Language="SV" />
+    <Resource Language="TH" />
+    <Resource Language="TR" />
+    <Resource Language="UK" />
+    <Resource Language="VI" />
+    <Resource Language="ZH-HANS-CN" />
+    <Resource Language="ZH-HANT" />
+    <Resource Language="ZH-HANT-HK" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="MyASUS.exe" EntryPoint="MyASUS.App">
+      <uap:VisualElements DisplayName="MyASUS-Service Center" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MyASUS" BackgroundColor="#014D9C">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:DefaultTile ShortName="MyASUS">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#019CFF" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationHelper.UpdateMsgCenter_BackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationHelper.ExtendWarrantyTwoMonthNotifyTask">
+          <BackgroundTasks>
+            <Task Type="general" />
+            <Task Type="systemEvent" />
+            <Task Type="pushNotification" />
+            <Task Type="deviceUse" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationHelper.ExtendWarrantySevenDayNotifyTask">
+          <BackgroundTasks>
+            <Task Type="general" />
+            <Task Type="systemEvent" />
+            <Task Type="pushNotification" />
+            <Task Type="deviceUse" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationHelper.RegDeviceNotifyTask">
+          <BackgroundTasks>
+            <Task Type="general" />
+            <Task Type="systemEvent" />
+            <Task Type="pushNotification" />
+            <Task Type="deviceUse" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="myasus">
+            <uap:DisplayName>MyASUS Launch Uri</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationBackgroundTask.PushNotificationBackgroundConnection">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="pushNotification" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="PushNotificationHelper.MaintenanceTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="MyASUS_Win32.exe">
+          <desktop:FullTrustProcess>
+            <desktop:ParameterGroup GroupId="Force_Launch" Parameters="-UWP" />
+          </desktop:FullTrustProcess>
+        </desktop:Extension>
+        <!--<desktop:Extension Category="windows.startupTask" Executable="MyASUS_Win32.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="MyAsusStartupTask" Enabled="true" DisplayName="MyAsusService" />
+        </desktop:Extension>-->
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <rescap:Capability Name="runFullTrust" />
+    <DeviceCapability Name="location" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>MyASUS.dll</Path>
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Transaction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.TrackerManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.PlatformInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Tracker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Dimensions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.GAServiceManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.TransactionItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Payload" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.AnalyticsEngine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.ProductReceipt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.PlatformInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.AppReceipt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.EasyTracker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.TransactionBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.EasyTrackerConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationBackgroundTask.UnreadUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationBackgroundTask.NotifyUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationBackgroundTask.PushNotificationBackgroundConnection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationBackgroundTask.MsgType" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.TaskRegisterUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.HelperApi.LoginUtil" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.UpdateMsgCenter_BackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.MaintenanceTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.GetLanguageApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.Notifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.ExtendWarrantySevenDayNotifyTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.MSGSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.RegDeviceNotifyTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PushNotificationHelper.Api.ApiUtil" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.17108.1000 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27128.1" />
+    <build:Item Name="ProjectGUID" Value="{EB5194F5-B126-4A43-BA77-EC21C6B69F8D}" />
+    <build:Item Name="ilc.exe" Version="1.4.24211.00 built by: PROJECTNGDR2" />
+    <build:Item Name="OptimizingToolset" Value="ilc.exe" />
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
+    <build:Item Name="UniversalGenericsOptOut" Value="false" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27128.1" />
+    <build:Item Name="WindowsDesktop" Version="10.0.16299.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

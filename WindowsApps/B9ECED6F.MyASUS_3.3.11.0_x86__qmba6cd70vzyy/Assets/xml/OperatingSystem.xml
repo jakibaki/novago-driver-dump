@@ -1,0 +1,168 @@
+﻿<OS>
+  
+  <OS_NAME name="Android">
+  <OS_VALUE>Android</OS_VALUE>
+    </OS_NAME>
+  
+  <OS_NAME name="DOS">
+  <OS_VALUE>DOS</OS_VALUE>
+  </OS_NAME>
+  
+   <OS_NAME name="Linux">
+  <OS_VALUE>Linux</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="MAC OS">
+    <OS_VALUE>MAC OS</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Netware">
+    <OS_VALUE>Netware</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="OMS">
+    <OS_VALUE>OMS</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="OS2">
+    <OS_VALUE>OS2</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Others">
+    <OS_VALUE>Others</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Sco Unix">
+    <OS_VALUE>Sco Unix</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Sun Solaris">
+    <OS_VALUE>Sun Solaris</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Ubuntu">
+    <OS_VALUE>Ubuntu</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Unixware">
+    <OS_VALUE>Unixware</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Vista 32bit">
+    <OS_VALUE>Vista 32bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Vista 64bit">
+    <OS_VALUE>Vista 64bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2003">
+    <OS_VALUE>Win2003</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2003 64bit">
+    <OS_VALUE>Win2003 64bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2008">
+    <OS_VALUE>Win2008</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2008 64bit">
+    <OS_VALUE>Win2008 64bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2008 R2">
+    <OS_VALUE>Win2008 R2</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2012">
+    <OS_VALUE>Win2012</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win2012 R2">
+    <OS_VALUE>Win2012 R2</OS_VALUE>
+  </OS_NAME>
+  
+  <OS_NAME name="Win2K">
+    <OS_VALUE>Win2K</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win3.X">
+    <OS_VALUE>Win3.X</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win95">
+    <OS_VALUE>Win95</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win98SE">
+    <OS_VALUE>Win98SE</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Win9x">
+    <OS_VALUE>Win9x</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="WinCE">
+    <OS_VALUE>WinCE</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 10 32 bit">
+    <OS_VALUE>Windows 10 32 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 10 64 bit">
+    <OS_VALUE>Windows 10 64 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 7 32 bit">
+    <OS_VALUE>Windows 7 32 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 7 64 bit">
+    <OS_VALUE>Windows 7 64 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 8 32 bit">
+    <OS_VALUE>Windows 8 32 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 8 64 bit">
+    <OS_VALUE>Windows 8 64 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 8.1 32 bit">
+    <OS_VALUE>Windows 8.1 32 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows 8.1 64 bit">
+    <OS_VALUE>Windows 8.1 64 bit</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows Mobile">
+    <OS_VALUE>Windows Mobile</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="Windows RT">
+    <OS_VALUE>Windows RT</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="WinME">
+    <OS_VALUE>WinME</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="WinNT">
+    <OS_VALUE>WinNT</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="WinXP">
+    <OS_VALUE>"WinXP</OS_VALUE>
+  </OS_NAME>
+
+  <OS_NAME name="WinXP 64bit">
+    <OS_VALUE>WinXP 64bit</OS_VALUE>
+  </OS_NAME>
+  
+</OS>
+

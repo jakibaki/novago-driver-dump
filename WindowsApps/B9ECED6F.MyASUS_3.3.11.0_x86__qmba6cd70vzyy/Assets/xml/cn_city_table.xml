@@ -1,0 +1,3321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<City xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <State id="NS0001">
+    <id value="230000">
+      <en>HEFEI</en>
+      <cn>合肥</cn>
+      <tw>合肥</tw>
+    </id>
+
+
+    <id value="232000">
+      <en>HUAINAN</en>
+      <cn>淮南</cn>
+      <tw>淮南</tw>
+    </id>
+
+
+    <id value="233000">
+      <en>BENGBU</en>
+      <cn>蚌埠</cn>
+      <tw>蚌埠</tw>
+    </id>
+
+
+    <id value="234000">
+      <en>SUZHOU</en>
+      <cn>宿州</cn>
+      <tw>宿州</tw>
+    </id>
+
+
+    <id value="235000">
+      <en>HUAIBEI</en>
+      <cn>淮北</cn>
+      <tw>淮北</tw>
+    </id>
+
+
+    <id value="236000">
+      <en>FUYANG</en>
+      <cn>阜阳</cn>
+      <tw>阜陽</tw>
+    </id>
+
+
+    <id value="236800">
+      <en>HAOZHOU</en>
+      <cn>毫州</cn>
+      <tw>毫州</tw>
+    </id>
+
+
+    <id value="237000">
+      <en>LIUAN</en>
+      <cn>六安</cn>
+      <tw>六安</tw>
+    </id>
+
+
+    <id value="238000">
+      <en>CHAOHU</en>
+      <cn>巢湖</cn>
+      <tw>巢湖</tw>
+    </id>
+
+
+    <id value="239000">
+      <en>CUZHOU</en>
+      <cn>滁州</cn>
+      <tw>滁州</tw>
+    </id>
+
+
+    <id value="241000">
+      <en>WUHU</en>
+      <cn>芜湖</cn>
+      <tw>蕪湖</tw>
+    </id>
+
+
+    <id value="242000">
+      <en>XUANCHENG</en>
+      <cn>宣城</cn>
+      <tw>宣城</tw>
+    </id>
+
+
+    <id value="243000">
+      <en>MAANSHAN</en>
+      <cn>马鞍山</cn>
+      <tw>馬鞍山</tw>
+    </id>
+
+
+    <id value="244000">
+      <en>TONGLING</en>
+      <cn>铜陵</cn>
+      <tw>銅陵</tw>
+    </id>
+
+
+    <id value="245000">
+      <en>HUANGSHAN</en>
+      <cn>黄山</cn>
+      <tw>黃山</tw>
+    </id>
+
+
+    <id value="246000">
+      <en>QANQING</en>
+      <cn>安庆</cn>
+      <tw>安慶</tw>
+    </id>
+
+
+    <id value="247100">
+      <en>CHIZHOU</en>
+      <cn>池州</cn>
+      <tw>池州</tw>
+    </id>
+  </State>
+  <State id="NS0002">
+    <id value="100000-1">
+      <en>DONGCHENGQU</en>
+      <cn>东城区 </cn>
+      <tw>東城區</tw>
+    </id>
+
+
+    <id value="100000-2">
+      <en>XICHENGQU</en>
+      <cn>西城区</cn>
+      <tw>西城區</tw>
+    </id>
+
+
+    <id value="100000-3">
+      <en>CHONGWENQU</en>
+      <cn>崇文区</cn>
+      <tw>崇文區</tw>
+    </id>
+
+
+    <id value="100000-4">
+      <en>XUANWUQU</en>
+      <cn>宣武区</cn>
+      <tw>宣武區</tw>
+    </id>
+
+
+    <id value="100000-5">
+      <en>CHAOYANGQU</en>
+      <cn>朝阳区</cn>
+      <tw>朝陽區</tw>
+    </id>
+
+
+    <id value="100000-6">
+      <en>HAIDIANQU</en>
+      <cn>海淀区</cn>
+      <tw>海澱區</tw>
+    </id>
+
+
+    <id value="100000-7">
+      <en>FENGTAIQU</en>
+      <cn>丰台区</cn>
+      <tw>豐台區</tw>
+    </id>
+
+
+    <id value="100000-8">
+      <en>SHIJINGSHANQU</en>
+      <cn>石景山区</cn>
+      <tw>石景山區</tw>
+    </id>
+
+
+    <id value="101100">
+      <en>TONGZHOUQU</en>
+      <cn>通州区</cn>
+      <tw>通州區</tw>
+    </id>
+
+
+    <id value="101200">
+      <en>PINGGUQU</en>
+      <cn>平谷区（城关镇）</cn>
+      <tw>平谷區（城關鎮）</tw>
+    </id>
+
+
+    <id value="101300">
+      <en>SHUNYIQU</en>
+      <cn>顺义区</cn>
+      <tw>順義區</tw>
+    </id>
+
+
+    <id value="101400">
+      <en>HUAIROUQU</en>
+      <cn>怀柔区（城关镇）</cn>
+      <tw>懷柔區（城關鎮）</tw>
+    </id>
+
+
+    <id value="101500">
+      <en>MIYUNXIAN</en>
+      <cn>密云县</cn>
+      <tw>密雲縣</tw>
+    </id>
+
+
+    <id value="102100">
+      <en>YANQINGXIAN</en>
+      <cn>延庆县</cn>
+      <tw>延慶縣</tw>
+    </id>
+
+
+    <id value="102200">
+      <en>CHANGPINGQU</en>
+      <cn>昌平区</cn>
+      <tw>昌平區</tw>
+    </id>
+
+
+    <id value="102300">
+      <en>MENTOUGOUQU</en>
+      <cn>门头沟区</cn>
+      <tw>門頭溝區</tw>
+    </id>
+
+
+    <id value="102400">
+      <en>FANGSHANQU</en>
+      <cn>房山区</cn>
+      <tw>房山區</tw>
+    </id>
+
+
+    <id value="102600">
+      <en>DAXINGQU</en>
+      <cn>大兴区（黄村镇）</cn>
+      <tw>大興區（黃村鎮）</tw>
+    </id>
+  </State>
+  <State id="NS0003">
+    <id value="350000">
+      <en>FUZHOU</en>
+      <cn>福州</cn>
+      <tw>福州</tw>
+    </id>
+
+
+    <id value="351100">
+      <en>PUTIAN</en>
+      <cn>莆田</cn>
+      <tw>莆田</tw>
+    </id>
+
+
+    <id value="352100">
+      <en>NINGDE</en>
+      <cn>宁德</cn>
+      <tw>寧德</tw>
+    </id>
+
+
+    <id value="353000">
+      <en>NANPING</en>
+      <cn>南平</cn>
+      <tw>南平</tw>
+    </id>
+
+
+    <id value="361000">
+      <en>XIAMEN</en>
+      <cn>厦门</cn>
+      <tw>廈門</tw>
+    </id>
+
+
+    <id value="362000">
+      <en>QUANZHOU</en>
+      <cn>泉州</cn>
+      <tw>泉州</tw>
+    </id>
+
+
+    <id value="363000">
+      <en>ZHANGZHOU</en>
+      <cn>漳州</cn>
+      <tw>漳州</tw>
+    </id>
+
+
+    <id value="364000">
+      <en>LONGYAN</en>
+      <cn>龙岩</cn>
+      <tw>龍岩</tw>
+    </id>
+
+
+    <id value="365000">
+      <en>SANMING</en>
+      <cn>三明</cn>
+      <tw>三明</tw>
+    </id>
+  </State>
+  <State id="NS0004">
+    <id value="730000">
+      <en>LANZHOU</en>
+      <cn>兰州</cn>
+      <tw>蘭州</tw>
+    </id>
+
+
+    <id value="730900">
+      <en>BAIYIN</en>
+      <cn>白银</cn>
+      <tw>白銀</tw>
+    </id>
+
+
+    <id value="731100">
+      <en>LINXIA</en>
+      <cn>临夏回族自治州（临夏）</cn>
+      <tw>臨夏回族自治州（臨夏）</tw>
+    </id>
+
+
+    <id value="733000">
+      <en>JINCHANG</en>
+      <cn>金昌</cn>
+      <tw>金昌</tw>
+    </id>
+
+
+    <id value="733000-1">
+      <en>WUWEI</en>
+      <cn>武威</cn>
+      <tw>武威</tw>
+    </id>
+
+
+    <id value="734000">
+      <en>ZHANGYE</en>
+      <cn>张掖</cn>
+      <tw>張掖</tw>
+    </id>
+
+
+    <id value="735000">
+      <en>JIUQUAN</en>
+      <cn>酒泉</cn>
+      <tw>酒泉</tw>
+    </id>
+
+
+    <id value="735100">
+      <en>JIAYUGUAN</en>
+      <cn>嘉峪关</cn>
+      <tw>嘉峪關</tw>
+    </id>
+
+
+    <id value="741000">
+      <en>TIANSHUI</en>
+      <cn>天水</cn>
+      <tw>天水</tw>
+    </id>
+
+
+    <id value="742500">
+      <en>LONGNAN</en>
+      <cn>陇南市</cn>
+      <tw>隴南市</tw>
+    </id>
+
+
+    <id value="743000">
+      <en>DINGXI</en>
+      <cn>定西市</cn>
+      <tw>定西市</tw>
+    </id>
+
+
+    <id value="744000">
+      <en>PINGLIANG</en>
+      <cn>平凉</cn>
+      <tw>平涼</tw>
+    </id>
+
+
+    <id value="745000">
+      <en>QINGYANG</en>
+      <cn>庆阳</cn>
+      <tw>慶陽</tw>
+    </id>
+
+
+    <id value="747000">
+      <en>HEZUO</en>
+      <cn>甘南藏族自治州（合作）</cn>
+      <tw>甘南藏族自治州（合作）</tw>
+    </id>
+  </State>
+  <State id="NS0005">
+    <id value="510000">
+      <en>GUANGZHOU</en>
+      <cn>广州</cn>
+      <tw>廣州</tw>
+    </id>
+
+
+    <id value="511500">
+      <en>QINGYUAN</en>
+      <cn>清远</cn>
+      <tw>清遠</tw>
+    </id>
+
+
+    <id value="511700">
+      <en>DONGGUAN</en>
+      <cn>东莞</cn>
+      <tw>東莞</tw>
+    </id>
+
+
+    <id value="512000">
+      <en>SHAOGUAN</en>
+      <cn>韶关</cn>
+      <tw>韶關</tw>
+    </id>
+
+
+    <id value="514000">
+      <en>MEIZHOU</en>
+      <cn>梅州</cn>
+      <tw>梅州</tw>
+    </id>
+
+
+    <id value="515000">
+      <en>SHANTOU</en>
+      <cn>汕头</cn>
+      <tw>汕頭</tw>
+    </id>
+
+
+    <id value="515500">
+      <en>JIEYANG</en>
+      <cn>揭阳</cn>
+      <tw>揭陽</tw>
+    </id>
+
+
+    <id value="515600">
+      <en>CHAOZHOU</en>
+      <cn>潮州</cn>
+      <tw>潮州</tw>
+    </id>
+
+
+    <id value="516000">
+      <en>HUIZHOU</en>
+      <cn>惠州</cn>
+      <tw>惠州</tw>
+    </id>
+
+
+    <id value="516600">
+      <en>SHANWEI</en>
+      <cn>汕尾</cn>
+      <tw>汕尾</tw>
+    </id>
+
+
+    <id value="517000">
+      <en>HEYUAN</en>
+      <cn>河源</cn>
+      <tw>河源</tw>
+    </id>
+
+
+    <id value="518000">
+      <en>SHENZHEN</en>
+      <cn>深圳</cn>
+      <tw>深圳</tw>
+    </id>
+
+
+    <id value="519000">
+      <en>ZHUHAI</en>
+      <cn>珠海</cn>
+      <tw>珠海</tw>
+    </id>
+
+
+    <id value="524000">
+      <en>ZHANJIANG</en>
+      <cn>湛江</cn>
+      <tw>湛江</tw>
+    </id>
+
+
+    <id value="525000">
+      <en>MAOMING</en>
+      <cn>茂名</cn>
+      <tw>茂名</tw>
+    </id>
+
+
+    <id value="526000">
+      <en>ZHAOQING</en>
+      <cn>肇庆</cn>
+      <tw>肇慶</tw>
+    </id>
+
+
+    <id value="527300">
+      <en>YUNFU</en>
+      <cn>云浮</cn>
+      <tw>雲浮</tw>
+    </id>
+
+
+    <id value="528000">
+      <en>FOSHAN</en>
+      <cn>佛山</cn>
+      <tw>佛山</tw>
+    </id>
+
+
+    <id value="528400">
+      <en>ZHONGSHAN</en>
+      <cn>中山</cn>
+      <tw>中山</tw>
+    </id>
+
+
+    <id value="529000">
+      <en>JIANGMEN</en>
+      <cn>江门</cn>
+      <tw>江門</tw>
+    </id>
+
+
+    <id value="529500">
+      <en>YANGJIANG</en>
+      <cn>阳江</cn>
+      <tw>陽江</tw>
+    </id>
+  </State>
+  <State id="NS0006">
+    <id value="530000">
+      <en>NANNING</en>
+      <cn>南宁</cn>
+      <tw>南寧</tw>
+    </id>
+
+
+    <id value="532200">
+      <en>CONGZUO</en>
+      <cn>崇左</cn>
+      <tw>崇左</tw>
+    </id>
+
+
+    <id value="533000">
+      <en>BAISE</en>
+      <cn>百色</cn>
+      <tw>百色</tw>
+    </id>
+
+
+    <id value="535000">
+      <en>QINZHOU</en>
+      <cn>钦州</cn>
+      <tw>欽州</tw>
+    </id>
+
+
+    <id value="535700">
+      <en>FANGCHENGGANG</en>
+      <cn>防城港</cn>
+      <tw>防城港</tw>
+    </id>
+
+
+    <id value="536000">
+      <en>BEIHAI</en>
+      <cn>北海</cn>
+      <tw>北海</tw>
+    </id>
+
+
+    <id value="537000">
+      <en>YULIN</en>
+      <cn>玉林</cn>
+      <tw>玉林</tw>
+    </id>
+
+
+    <id value="537100">
+      <en>GUIGANG</en>
+      <cn>贵港</cn>
+      <tw>貴港</tw>
+    </id>
+
+
+    <id value="541000">
+      <en>GUILIN</en>
+      <cn>桂林</cn>
+      <tw>桂林</tw>
+    </id>
+
+
+    <id value="542800">
+      <en>HEZHOU</en>
+      <cn>贺州</cn>
+      <tw>賀州</tw>
+    </id>
+
+
+    <id value="543000">
+      <en>WUZHOU</en>
+      <cn>梧州</cn>
+      <tw>梧州</tw>
+    </id>
+
+
+    <id value="545000">
+      <en>LIUZHOU</en>
+      <cn>柳州</cn>
+      <tw>柳州</tw>
+    </id>
+
+
+    <id value="546100">
+      <en>LAIBIN</en>
+      <cn>来宾</cn>
+      <tw>來賓</tw>
+    </id>
+
+
+    <id value="547000">
+      <en>HECHI</en>
+      <cn>河池</cn>
+      <tw>河池</tw>
+    </id>
+  </State>
+  <State id="NS0007">
+    <id value="550000">
+      <en>GUIYANG</en>
+      <cn>贵阳</cn>
+      <tw>貴陽</tw>
+    </id>
+
+
+    <id value="551700">
+      <en>BIJIE</en>
+      <cn>毕节地区（毕节）</cn>
+      <tw>畢節地區（畢節）</tw>
+    </id>
+
+
+    <id value="553000">
+      <en>LIUPANSHUI</en>
+      <cn>六盘水</cn>
+      <tw>六盤水</tw>
+    </id>
+
+
+    <id value="554300">
+      <en>TONGREN</en>
+      <cn>铜仁地区（铜仁）</cn>
+      <tw>銅仁地區（銅仁）</tw>
+    </id>
+
+
+    <id value="556000">
+      <en>KAILI</en>
+      <cn>黔东南苗族侗族自治州（凯里）</cn>
+      <tw>黔東南苗族侗族自治州（凱裡）</tw>
+    </id>
+
+
+    <id value="558000">
+      <en>DUYUN</en>
+      <cn>黔南布依族苗族自治州（都匀）</cn>
+      <tw>黔南布依族苗族自治州（都勻）</tw>
+    </id>
+
+
+    <id value="561000">
+      <en>ANSHUI</en>
+      <cn>安顺</cn>
+      <tw>安順</tw>
+    </id>
+
+
+    <id value="562400">
+      <en>XINGYI</en>
+      <cn>黔西南布依族苗族自治州（兴义）</cn>
+      <tw>黔西南布依族苗族自治州（興義）</tw>
+    </id>
+
+
+    <id value="563000">
+      <en>ZUNYI</en>
+      <cn>遵义</cn>
+      <tw>遵義</tw>
+    </id>
+  </State>
+  <State id="NS0008">
+    <id value="570000">
+      <en>HAIKOU</en>
+      <cn>海口</cn>
+      <tw>海口</tw>
+    </id>
+
+
+    <id value="571200">
+      <en>ANDING</en>
+      <cn>安定县（定城镇）</cn>
+      <tw>安定縣（定城鎮）</tw>
+    </id>
+
+
+    <id value="571300">
+      <en>WENCHANG</en>
+      <cn>文昌</cn>
+      <tw>文昌</tw>
+    </id>
+
+
+    <id value="571400">
+      <en>QIONGHAI</en>
+      <cn>琼海</cn>
+      <tw>瓊海</tw>
+    </id>
+
+
+    <id value="571500">
+      <en>WANNING</en>
+      <cn>万宁</cn>
+      <tw>萬寧</tw>
+    </id>
+
+
+    <id value="571600">
+      <en>TUNCHANG</en>
+      <cn>屯昌县（屯昌镇）</cn>
+      <tw>屯昌縣（屯昌鎮）</tw>
+    </id>
+
+
+    <id value="571700">
+      <en>DANZHOU</en>
+      <cn>儋州</cn>
+      <tw>儋州</tw>
+    </id>
+
+
+    <id value="571800">
+      <en>LINGAO</en>
+      <cn>临高县（临城镇）</cn>
+      <tw>臨高縣（臨城鎮）</tw>
+    </id>
+
+
+    <id value="571900">
+      <en>CHENGMAI</en>
+      <cn>澄迈县（金江镇）</cn>
+      <tw>澄邁縣（金江鎮）</tw>
+    </id>
+
+
+    <id value="572000">
+      <en>SANYA</en>
+      <cn>三亚</cn>
+      <tw>三亞</tw>
+    </id>
+
+
+    <id value="572200">
+      <en>WUZHISHAN</en>
+      <cn>五指山</cn>
+      <tw>五指山</tw>
+    </id>
+
+
+    <id value="572300">
+      <en>BAOTING</en>
+      <cn>保亭黎族苗族自治县(保城镇)</cn>
+      <tw>保亭黎族苗族自治縣(保城鎮)</tw>
+    </id>
+
+
+    <id value="572400">
+      <en>LINGSHUI</en>
+      <cn>陵水黎族自治县(陵城镇)</cn>
+      <tw>陵水黎族自治縣(陵城鎮)</tw>
+    </id>
+
+
+    <id value="572500">
+      <en>LEDONG</en>
+      <cn>乐东黎族自治县(抱由镇)</cn>
+      <tw>樂東黎族自治縣(抱由鎮)</tw>
+    </id>
+
+
+    <id value="572600">
+      <en>DONGFANG</en>
+      <cn>东方</cn>
+      <tw>東方</tw>
+    </id>
+
+
+    <id value="572700">
+      <en>CHANGJIANG</en>
+      <cn>昌江黎族自治县(石碌镇)</cn>
+      <tw>昌江黎族自治縣(石碌鎮)</tw>
+    </id>
+
+
+    <id value="572800">
+      <en>BAISHA</en>
+      <cn>白沙黎族自治县(牙叉镇)</cn>
+      <tw>白沙黎族自治縣(牙叉鎮)</tw>
+    </id>
+
+
+    <id value="572900">
+      <en>QIONGZHONG</en>
+      <cn>琼中黎族苗族自治县(营根镇)</cn>
+      <tw>瓊中黎族苗族自治縣(營根鎮)</tw>
+    </id>
+  </State>
+  <State id="NS0009">
+    <id value="102800">
+      <en>LANGFANG</en>
+      <cn>廊坊</cn>
+      <tw>廊坊</tw>
+    </id>
+
+
+    <id value="50000">
+      <en>XHIJIAZHUANG</en>
+      <cn>石家庄</cn>
+      <tw>石家莊</tw>
+    </id>
+
+
+    <id value="53000">
+      <en>HENSHUI</en>
+      <cn>衡水</cn>
+      <tw>衡水</tw>
+    </id>
+
+
+    <id value="54000">
+      <en>FENGTAI</en>
+      <cn>邢台</cn>
+      <tw>邢臺</tw>
+    </id>
+
+
+    <id value="56000">
+      <en>HANDAN</en>
+      <cn>邯郸</cn>
+      <tw>邯鄲</tw>
+    </id>
+
+
+    <id value="61000">
+      <en>CANGZHOU</en>
+      <cn>沧州</cn>
+      <tw>滄州</tw>
+    </id>
+
+
+    <id value="63000">
+      <en>TANGSHAN</en>
+      <cn>唐山</cn>
+      <tw>唐山</tw>
+    </id>
+
+
+    <id value="66000">
+      <en>QINGHUANGDAO</en>
+      <cn>秦皇岛</cn>
+      <tw>秦皇島</tw>
+    </id>
+
+
+    <id value="67000">
+      <en>CHENGDE</en>
+      <cn>承德</cn>
+      <tw>承德</tw>
+    </id>
+
+
+    <id value="71000">
+      <en>BAODING</en>
+      <cn>保定</cn>
+      <tw>保定</tw>
+    </id>
+
+
+    <id value="75000">
+      <en>ZHANGJIAKOU</en>
+      <cn>张家口</cn>
+      <tw>張家口</tw>
+    </id>
+  </State>
+  <State id="NS0010">
+    <id value="450000">
+      <en>ZHENGZHOU</en>
+      <cn>郑州</cn>
+      <tw>鄭州</tw>
+    </id>
+
+
+    <id value="453700">
+      <en>XINXIANG</en>
+      <cn>新乡</cn>
+      <tw>新鄉</tw>
+    </id>
+
+
+    <id value="454100">
+      <en>JIAOZUO</en>
+      <cn>焦作</cn>
+      <tw>焦作</tw>
+    </id>
+
+
+    <id value="454600">
+      <en>JIYUAN</en>
+      <cn>济源</cn>
+      <tw>濟源</tw>
+    </id>
+
+
+    <id value="455000">
+      <en>ANYANG</en>
+      <cn>安阳</cn>
+      <tw>安陽</tw>
+    </id>
+
+
+    <id value="456600">
+      <en>HEBI</en>
+      <cn>鹤壁</cn>
+      <tw>鶴壁</tw>
+    </id>
+
+
+    <id value="457000">
+      <en>PUYANG</en>
+      <cn>濮阳</cn>
+      <tw>濮陽</tw>
+    </id>
+
+
+    <id value="461000">
+      <en>XUCHANG</en>
+      <cn>许昌</cn>
+      <tw>許昌</tw>
+    </id>
+
+
+    <id value="462000">
+      <en>LUOHE</en>
+      <cn>漯河</cn>
+      <tw>漯河</tw>
+    </id>
+
+
+    <id value="463000">
+      <en>ZHUMADIAN</en>
+      <cn>驻马店</cn>
+      <tw>駐馬店</tw>
+    </id>
+
+
+    <id value="464000">
+      <en>XINYANG</en>
+      <cn>信阳</cn>
+      <tw>信陽</tw>
+    </id>
+
+
+    <id value="466000">
+      <en>ZHOUKOU</en>
+      <cn>周口</cn>
+      <tw>周口</tw>
+    </id>
+
+
+    <id value="467000">
+      <en>PINGDINGSHAN</en>
+      <cn>平顶山</cn>
+      <tw>平頂山</tw>
+    </id>
+
+
+    <id value="471000">
+      <en>LUOYANG</en>
+      <cn>洛阳</cn>
+      <tw>洛陽</tw>
+    </id>
+
+
+    <id value="472000">
+      <en>SANMENXIA</en>
+      <cn>三门峡</cn>
+      <tw>三門峽</tw>
+    </id>
+
+
+    <id value="473000">
+      <en>NANYANG</en>
+      <cn>南阳</cn>
+      <tw>南陽</tw>
+    </id>
+
+
+    <id value="475000">
+      <en>KAIFENG</en>
+      <cn>开封</cn>
+      <tw>開封</tw>
+    </id>
+
+
+    <id value="476000">
+      <en>SHANGQIU</en>
+      <cn>商丘</cn>
+      <tw>商丘</tw>
+    </id>
+  </State>
+  <State id="NS0011">
+    <id value="150000">
+      <en>HAERBIN</en>
+      <cn>哈尔滨</cn>
+      <tw>哈爾濱</tw>
+    </id>
+
+
+    <id value="152000">
+      <en>SUIHUA</en>
+      <cn>绥化</cn>
+      <tw>綏化</tw>
+    </id>
+
+
+    <id value="153000">
+      <en>YICHUN</en>
+      <cn>伊春</cn>
+      <tw>伊春</tw>
+    </id>
+
+
+    <id value="154000">
+      <en>JIAMUSI</en>
+      <cn>佳木斯</cn>
+      <tw>佳木斯</tw>
+    </id>
+
+
+    <id value="154100">
+      <en>HEGANG</en>
+      <cn>鹤岗</cn>
+      <tw>鶴崗</tw>
+    </id>
+
+
+    <id value="154600">
+      <en>QITAIHE</en>
+      <cn>七台河</cn>
+      <tw>七台河</tw>
+    </id>
+
+
+    <id value="155100">
+      <en>SHUANGYASHAN</en>
+      <cn>双鸭山</cn>
+      <tw>雙鴨山</tw>
+    </id>
+
+
+    <id value="157000">
+      <en>MUDANJIANG</en>
+      <cn>牡丹江</cn>
+      <tw>牡丹江</tw>
+    </id>
+
+
+    <id value="158100">
+      <en>JIXI</en>
+      <cn>鸡西</cn>
+      <tw>雞西</tw>
+    </id>
+
+
+    <id value="161000">
+      <en>QIQIHAER</en>
+      <cn>齐齐哈尔</cn>
+      <tw>齊齊哈爾</tw>
+    </id>
+
+
+    <id value="163000">
+      <en>DAQING</en>
+      <cn>大庆</cn>
+      <tw>大慶</tw>
+    </id>
+
+
+    <id value="164300">
+      <en>HEIHE</en>
+      <cn>黑河</cn>
+      <tw>黑河</tw>
+    </id>
+
+
+    <id value="165000">
+      <en>DAXINGANLINGDIQU</en>
+      <cn>大兴安岭地区（加格达奇）</cn>
+      <tw>大興安嶺地區（加格達奇）</tw>
+    </id>
+  </State>
+  <State id="NS0012">
+    <id value="430000">
+      <en>WUHAN</en>
+      <cn>武汉</cn>
+      <tw>武漢</tw>
+    </id>
+
+
+    <id value="431700">
+      <en>TIANMEN</en>
+      <cn>天门</cn>
+      <tw>天門</tw>
+    </id>
+
+
+    <id value="432100">
+      <en>XIAOGAN</en>
+      <cn>孝感</cn>
+      <tw>孝感</tw>
+    </id>
+
+
+    <id value="433000">
+      <en>XIANTAO</en>
+      <cn>仙桃</cn>
+      <tw>仙桃</tw>
+    </id>
+
+
+    <id value="433100">
+      <en>QIANJIANG</en>
+      <cn>潜江</cn>
+      <tw>潛江</tw>
+    </id>
+
+
+    <id value="434000">
+      <en>JINGZHOU</en>
+      <cn>荆州</cn>
+      <tw>荊州</tw>
+    </id>
+
+
+    <id value="434500">
+      <en>JINGMEN</en>
+      <cn>荆门</cn>
+      <tw>荊門</tw>
+    </id>
+
+
+    <id value="435000">
+      <en>HUANGSHI</en>
+      <cn>黄石</cn>
+      <tw>黃石</tw>
+    </id>
+
+
+    <id value="436000">
+      <en>EZHOU</en>
+      <cn>鄂州</cn>
+      <tw>鄂州</tw>
+    </id>
+
+
+    <id value="436100">
+      <en>HUANGGANG</en>
+      <cn>黄冈</cn>
+      <tw>黃岡</tw>
+    </id>
+
+
+    <id value="437000">
+      <en>XIANNING</en>
+      <cn>咸宁</cn>
+      <tw>咸寧</tw>
+    </id>
+
+
+    <id value="441000">
+      <en>XIANGFAN</en>
+      <cn>襄樊</cn>
+      <tw>襄樊</tw>
+    </id>
+
+
+    <id value="441300">
+      <en>SUIZHOU</en>
+      <cn>随州</cn>
+      <tw>隨州</tw>
+    </id>
+
+
+    <id value="442000">
+      <en>SHIYAN</en>
+      <cn>十堰</cn>
+      <tw>十堰</tw>
+    </id>
+
+
+    <id value="442400">
+      <en>SHENLONGJIALINQU</en>
+      <cn>神龙架林区（松柏镇）</cn>
+      <tw>神龍架林區（松柏鎮）</tw>
+    </id>
+
+
+    <id value="443000">
+      <en>YICHANG</en>
+      <cn>宜昌</cn>
+      <tw>宜昌</tw>
+    </id>
+
+
+    <id value="445000">
+      <en>ENSHI</en>
+      <cn>恩施土家族苗族自治州（恩施）</cn>
+      <tw>恩施土家族苗族自治州（恩施）</tw>
+    </id>
+  </State>
+  <State id="NS0013">
+    <id value="410000">
+      <en>CHANGSHA</en>
+      <cn>长沙</cn>
+      <tw>長沙</tw>
+    </id>
+
+
+    <id value="411100">
+      <en>XIANGTAN</en>
+      <cn>湘潭</cn>
+      <tw>湘潭</tw>
+    </id>
+
+
+    <id value="412000">
+      <en>ZHUZHOU</en>
+      <cn>株洲</cn>
+      <tw>株洲</tw>
+    </id>
+
+
+    <id value="413000">
+      <en>YIYANG</en>
+      <cn>益阳</cn>
+      <tw>益陽</tw>
+    </id>
+
+
+    <id value="414000">
+      <en>YUEYANG</en>
+      <cn>岳阳</cn>
+      <tw>岳陽</tw>
+    </id>
+
+
+    <id value="415100">
+      <en>CHANGDE</en>
+      <cn>常德</cn>
+      <tw>常德</tw>
+    </id>
+
+
+    <id value="416000">
+      <en>JISHOU</en>
+      <cn>湘西土家族苗族姿势周（吉首）</cn>
+      <tw>湘西土家族苗族姿勢周（吉首）</tw>
+    </id>
+
+
+    <id value="416600">
+      <en>ZHANGJIAJIE</en>
+      <cn>张家界</cn>
+      <tw>張家界</tw>
+    </id>
+
+
+    <id value="417000">
+      <en>LOUDI</en>
+      <cn>娄底</cn>
+      <tw>婁底</tw>
+    </id>
+
+
+    <id value="418000">
+      <en>HUAIHUA</en>
+      <cn>怀化</cn>
+      <tw>懷化</tw>
+    </id>
+
+
+    <id value="421000">
+      <en>HENGYANG</en>
+      <cn>衡阳</cn>
+      <tw>衡陽</tw>
+    </id>
+
+
+    <id value="422000">
+      <en>SHAOYANG</en>
+      <cn>邵阳</cn>
+      <tw>邵陽</tw>
+    </id>
+
+
+    <id value="423000">
+      <en>BANGZHOU</en>
+      <cn>郴州</cn>
+      <tw>郴州</tw>
+    </id>
+
+
+    <id value="425000">
+      <en>YONGZHOU</en>
+      <cn>永州</cn>
+      <tw>永州</tw>
+    </id>
+  </State>
+  <State id="NS0014">
+    <id value="130000">
+      <en>CHANGCHUN</en>
+      <cn>长春</cn>
+      <tw>長春</tw>
+    </id>
+
+
+    <id value="131000">
+      <en>SONGYUAN</en>
+      <cn>松原</cn>
+      <tw>松原</tw>
+    </id>
+
+
+    <id value="132000">
+      <en>JILIN</en>
+      <cn>吉林</cn>
+      <tw>吉林</tw>
+    </id>
+
+
+    <id value="133000">
+      <en>YANJI</en>
+      <cn>延边朝鲜族自治州（延吉）</cn>
+      <tw>延邊朝鮮族自治州（延吉）</tw>
+    </id>
+
+
+    <id value="134000">
+      <en>TONGHUA</en>
+      <cn>通化</cn>
+      <tw>通化</tw>
+    </id>
+
+
+    <id value="134300">
+      <en>BAISHAN</en>
+      <cn>白山</cn>
+      <tw>白山</tw>
+    </id>
+
+
+    <id value="136000">
+      <en>SIPING</en>
+      <cn>四平</cn>
+      <tw>四平</tw>
+    </id>
+
+
+    <id value="136200">
+      <en>LIAOYUAN</en>
+      <cn>辽源</cn>
+      <tw>遼源</tw>
+    </id>
+
+
+    <id value="137000">
+      <en>BAICHENG</en>
+      <cn>白城</cn>
+      <tw>白城</tw>
+    </id>
+  </State>
+  <State id="NS0015">
+    <id value="210000">
+      <en>NANJING</en>
+      <cn>南京</cn>
+      <tw>南京</tw>
+    </id>
+
+
+    <id value="212000">
+      <en>ZHENGJIANG</en>
+      <cn>镇江</cn>
+      <tw>鎮江</tw>
+    </id>
+
+
+    <id value="213000">
+      <en>CHANGZHOU</en>
+      <cn>常州</cn>
+      <tw>常州</tw>
+    </id>
+
+
+    <id value="214000">
+      <en>WUXI</en>
+      <cn>无锡</cn>
+      <tw>無錫</tw>
+    </id>
+
+
+    <id value="215000">
+      <en>SUZHOU</en>
+      <cn>苏州</cn>
+      <tw>蘇州</tw>
+    </id>
+
+
+    <id value="221000">
+      <en>XUZHOU</en>
+      <cn>徐州</cn>
+      <tw>徐州</tw>
+    </id>
+
+
+    <id value="222000">
+      <en>LIANYUNGANG</en>
+      <cn>连云港</cn>
+      <tw>連雲港</tw>
+    </id>
+
+
+    <id value="223200">
+      <en>HUAIAN</en>
+      <cn>淮安</cn>
+      <tw>淮安</tw>
+    </id>
+
+
+    <id value="223800">
+      <en>SUQIAN</en>
+      <cn>宿迁</cn>
+      <tw>宿遷</tw>
+    </id>
+
+
+    <id value="224000">
+      <en>YANCHENG</en>
+      <cn>盐城</cn>
+      <tw>鹽城</tw>
+    </id>
+
+
+    <id value="225000">
+      <en>YANGZHOU</en>
+      <cn>扬州</cn>
+      <tw>揚州</tw>
+    </id>
+
+
+    <id value="225300">
+      <en>TAIZHOU</en>
+      <cn>泰州</cn>
+      <tw>泰州</tw>
+    </id>
+
+
+    <id value="226300">
+      <en>NANTONG</en>
+      <cn>南通</cn>
+      <tw>南通</tw>
+    </id>
+  </State>
+  <State id="NS0016">
+    <id value="330000">
+      <en>NANCHANG</en>
+      <cn>南昌</cn>
+      <tw>南昌</tw>
+    </id>
+
+
+    <id value="332000">
+      <en>JIUJIANG</en>
+      <cn>九江</cn>
+      <tw>九江</tw>
+    </id>
+
+
+    <id value="333000">
+      <en>JINDEZHENG</en>
+      <cn>景德镇</cn>
+      <tw>景德鎮</tw>
+    </id>
+
+
+    <id value="334000">
+      <en>SHANGRAO</en>
+      <cn>上饶</cn>
+      <tw>上饒</tw>
+    </id>
+
+
+    <id value="335000">
+      <en>YINGTAN</en>
+      <cn>鹰潭</cn>
+      <tw>鷹潭</tw>
+    </id>
+
+
+    <id value="336000">
+      <en>YICHUN</en>
+      <cn>宜春</cn>
+      <tw>宜春</tw>
+    </id>
+
+
+    <id value="336500">
+      <en>XINYU</en>
+      <cn>新余</cn>
+      <tw>新餘</tw>
+    </id>
+
+
+    <id value="337000">
+      <en>PINGXIANG</en>
+      <cn>萍乡</cn>
+      <tw>萍鄉</tw>
+    </id>
+
+
+    <id value="341000">
+      <en>GANZHOU</en>
+      <cn>赣州</cn>
+      <tw>贛州</tw>
+    </id>
+
+
+    <id value="343000">
+      <en>JIAN</en>
+      <cn>吉安</cn>
+      <tw>吉安</tw>
+    </id>
+
+
+    <id value="344000">
+      <en>FUZHOU</en>
+      <cn>抚州</cn>
+      <tw>撫州</tw>
+    </id>
+  </State>
+  <State id="NS0017">
+    <id value="110000">
+      <en>SHENYANG</en>
+      <cn>沈阳</cn>
+      <tw>瀋陽</tw>
+    </id>
+
+
+    <id value="111000">
+      <en>LIAOYANG</en>
+      <cn>辽阳</cn>
+      <tw>遼陽</tw>
+    </id>
+
+
+    <id value="112000">
+      <en>TIELING</en>
+      <cn>铁岭</cn>
+      <tw>鐵嶺</tw>
+    </id>
+
+
+    <id value="113000">
+      <en>FUSHUN</en>
+      <cn>抚顺</cn>
+      <tw>撫順</tw>
+    </id>
+
+
+    <id value="114000">
+      <en>ANSHAN</en>
+      <cn>鞍山</cn>
+      <tw>鞍山</tw>
+    </id>
+
+
+    <id value="115000">
+      <en>YINGKOU</en>
+      <cn>营口</cn>
+      <tw>營口</tw>
+    </id>
+
+
+    <id value="116000">
+      <en>DALIAN</en>
+      <cn>大连</cn>
+      <tw>大連</tw>
+    </id>
+
+
+    <id value="117000">
+      <en>BENXI</en>
+      <cn>本溪</cn>
+      <tw>本溪</tw>
+    </id>
+
+
+    <id value="118000">
+      <en>DANDONG</en>
+      <cn>丹东</cn>
+      <tw>丹東</tw>
+    </id>
+
+
+    <id value="121000">
+      <en>JINZHOU</en>
+      <cn>锦州</cn>
+      <tw>錦州</tw>
+    </id>
+
+
+    <id value="121500">
+      <en>HULUDAO</en>
+      <cn>葫芦岛</cn>
+      <tw>葫蘆島</tw>
+    </id>
+
+
+    <id value="122000">
+      <en>CHAOYANG</en>
+      <cn>朝阳</cn>
+      <tw>朝陽</tw>
+    </id>
+
+
+    <id value="123000">
+      <en>FUXIN</en>
+      <cn>阜新</cn>
+      <tw>阜新</tw>
+    </id>
+
+
+    <id value="124000">
+      <en>PANJIN</en>
+      <cn>盘锦</cn>
+      <tw>盤錦</tw>
+    </id>
+  </State>
+  <State id="NS0018">
+    <id value="12000">
+      <en>JINING</en>
+      <cn>乌兰察布盟（集宁)</cn>
+      <tw>烏蘭察布盟（集寧)</tw>
+    </id>
+
+
+    <id value="15000">
+      <en>BAYANNAOER</en>
+      <cn>巴彦淖尔</cn>
+      <tw>巴彥淖爾</tw>
+    </id>
+
+
+    <id value="17300">
+      <en>EERDUOSI</en>
+      <cn>鄂尔多斯</cn>
+      <tw>鄂爾多斯</tw>
+    </id>
+
+
+    <id value="21000">
+      <en>HULUNBEIER</en>
+      <cn>呼伦贝尔</cn>
+      <tw>呼倫貝爾</tw>
+    </id>
+
+
+    <id value="26000">
+      <en>XILINHAOTE</en>
+      <cn>锡林郭勒盟(锡林浩特)</cn>
+      <tw>錫林郭勒盟(錫林浩特)</tw>
+    </id>
+
+
+    <id value="10000">
+      <en>HUHEHAOTE</en>
+      <cn>呼和浩特</cn>
+      <tw>呼和浩特</tw>
+    </id>
+
+
+    <id value="137400">
+      <en>XINGANMENG</en>
+      <cn>兴安盟（乌兰浩特）</cn>
+      <tw>興安盟（烏蘭浩特）</tw>
+    </id>
+
+
+    <id value="14000">
+      <en>BAOTOU</en>
+      <cn>包头</cn>
+      <tw>包頭</tw>
+    </id>
+
+
+    <id value="16000">
+      <en>WUHAI</en>
+      <cn>乌海</cn>
+      <tw>烏海</tw>
+    </id>
+
+
+    <id value="24000">
+      <en>CIFENG</en>
+      <cn>赤峰</cn>
+      <tw>赤峰</tw>
+    </id>
+
+
+    <id value="28000">
+      <en>TONGLIAO</en>
+      <cn>通辽</cn>
+      <tw>通遼</tw>
+    </id>
+
+
+    <id value="750300">
+      <en>ALASHANMENG</en>
+      <cn>阿拉善盟（阿拉善左旗）</cn>
+      <tw>阿拉善盟（阿拉善左旗）</tw>
+    </id>
+  </State>
+  <State id="NS0019">
+    <id value="750000">
+      <en>YINCHUAN</en>
+      <cn>银川</cn>
+      <tw>銀川</tw>
+    </id>
+
+
+    <id value="751100">
+      <en>WUZHONG</en>
+      <cn>吴忠</cn>
+      <tw>吳忠</tw>
+    </id>
+
+
+    <id value="751700">
+      <en>ZHONGWEI</en>
+      <cn>中卫</cn>
+      <tw>中衛</tw>
+    </id>
+
+
+    <id value="753000">
+      <en>SHIZUISHAN</en>
+      <cn>石嘴山</cn>
+      <tw>石嘴山</tw>
+    </id>
+
+
+    <id value="756000">
+      <en>GUYUAN</en>
+      <cn>固原</cn>
+      <tw>固原</tw>
+    </id>
+  </State>
+  <State id="NS0020">
+    <id value="810000">
+      <en>XINING</en>
+      <cn>西宁</cn>
+      <tw>西寧</tw>
+    </id>
+
+
+    <id value="810600">
+      <en>HAIDONGDIQU</en>
+      <cn>海东地区（平安县）</cn>
+      <tw>海東地區（平安縣）</tw>
+    </id>
+
+
+    <id value="811300">
+      <en>TONGREN</en>
+      <cn>黄南藏族自治州（同仁县）</cn>
+      <tw>黃南藏族自治州（同仁縣）</tw>
+    </id>
+
+
+    <id value="812200">
+      <en>HAOYAN</en>
+      <cn>海北藏族自治州（海晏县）</cn>
+      <tw>海北藏族自治州（海晏縣）</tw>
+    </id>
+
+
+    <id value="813000">
+      <en>GONGHE</en>
+      <cn>海南藏族自治州（共和县）</cn>
+      <tw>海南藏族自治州（共和縣）</tw>
+    </id>
+
+
+    <id value="814000">
+      <en>MAQIN</en>
+      <cn>果洛藏族自治州（玛沁县）</cn>
+      <tw>果洛藏族自治州（瑪沁縣）</tw>
+    </id>
+
+
+    <id value="815000">
+      <en>YUSHU</en>
+      <cn>玉树藏族自治州（玉树县）</cn>
+      <tw>玉樹藏族自治州（玉樹縣）</tw>
+    </id>
+
+
+    <id value="817000">
+      <en>HAIXI</en>
+      <cn>海西蒙古族藏族自治州（德令哈）</cn>
+      <tw>海西蒙古族藏族自治州（德令哈）</tw>
+    </id>
+  </State>
+  <State id="NS0021">
+    <id value="102800">
+      <en>LANGFANG</en>
+      <cn>濰坊</cn>
+      <tw>濰坊</tw>
+    </id>
+
+
+    <id value="250000">
+      <en>JINAN</en>
+      <cn>济南</cn>
+      <tw>濟南</tw>
+    </id>
+
+
+    <id value="252000">
+      <en>LIAOCHENG</en>
+      <cn>聊城</cn>
+      <tw>聊城</tw>
+    </id>
+
+
+    <id value="253000">
+      <en>DEZHOU</en>
+      <cn>德州</cn>
+      <tw>德州</tw>
+    </id>
+
+
+    <id value="255000">
+      <en>ZIBO</en>
+      <cn>淄博</cn>
+      <tw>淄博</tw>
+    </id>
+
+
+    <id value="256600">
+      <en>BINZHOU</en>
+      <cn>滨州</cn>
+      <tw>濱州</tw>
+    </id>
+
+
+    <id value="257000">
+      <en>DONGYING</en>
+      <cn>东营</cn>
+      <tw>東營</tw>
+    </id>
+
+
+    <id value="264000">
+      <en>YANTAI</en>
+      <cn>烟台</cn>
+      <tw>煙臺</tw>
+    </id>
+
+
+    <id value="264200">
+      <en>WEIHAI</en>
+      <cn>威海</cn>
+      <tw>威海</tw>
+    </id>
+
+
+    <id value="266000">
+      <en>QINGDAO</en>
+      <cn>青岛</cn>
+      <tw>青島</tw>
+    </id>
+
+
+    <id value="271000">
+      <en>TAIAN</en>
+      <cn>泰安</cn>
+      <tw>泰安</tw>
+    </id>
+
+
+    <id value="271100">
+      <en>LAIWU</en>
+      <cn>莱芜</cn>
+      <tw>萊蕪</tw>
+    </id>
+
+
+    <id value="272100">
+      <en>JINING</en>
+      <cn>济宁</cn>
+      <tw>濟寧</tw>
+    </id>
+
+
+    <id value="274000">
+      <en>HEZE</en>
+      <cn>菏泽</cn>
+      <tw>菏澤</tw>
+    </id>
+
+
+    <id value="276000">
+      <en>LINYI</en>
+      <cn>临沂</cn>
+      <tw>臨沂</tw>
+    </id>
+
+
+    <id value="276800">
+      <en>RIZHAO</en>
+      <cn>日照</cn>
+      <tw>日照</tw>
+    </id>
+
+
+    <id value="277100">
+      <en>ZAOZHUANG</en>
+      <cn>枣庄</cn>
+      <tw>棗莊</tw>
+    </id>
+  </State>
+  <State id="NS0022">
+    <id value="30600">
+      <en>JINZHONG</en>
+      <cn>晋中</cn>
+      <tw>晉中</tw>
+    </id>
+
+
+    <id value="33000">
+      <en>LVLIANG</en>
+      <cn>吕梁</cn>
+      <tw>呂梁</tw>
+    </id>
+
+
+    <id value="30000">
+      <en>TAIYUAN</en>
+      <cn>太原</cn>
+      <tw>太原</tw>
+    </id>
+
+
+    <id value="34000">
+      <en>XINZHOU</en>
+      <cn>忻州</cn>
+      <tw>忻州</tw>
+    </id>
+
+
+    <id value="37000">
+      <en>DATONG</en>
+      <cn>大同</cn>
+      <tw>大同</tw>
+    </id>
+
+
+    <id value="38500">
+      <en>SUOZHOU</en>
+      <cn>朔州</cn>
+      <tw>朔州</tw>
+    </id>
+
+
+    <id value="41000">
+      <en>LINFEN</en>
+      <cn>临汾</cn>
+      <tw>臨汾</tw>
+    </id>
+
+
+    <id value="44000">
+      <en>YUNCHENG</en>
+      <cn>运城</cn>
+      <tw>運城</tw>
+    </id>
+
+
+    <id value="46000">
+      <en>CHANGZHI</en>
+      <cn>长治</cn>
+      <tw>長治</tw>
+    </id>
+
+
+    <id value="48000">
+      <en>JINCHENG</en>
+      <cn>晋城</cn>
+      <tw>晉城</tw>
+    </id>
+
+
+    <id value="75800">
+      <en>YANGQUAN</en>
+      <cn>阳泉</cn>
+      <tw>陽泉</tw>
+    </id>
+  </State>
+  <State id="NS0023">
+    <id value="537000">
+      <en>YULIN</en>
+      <cn>玉林</cn>
+      <tw>玉林</tw>
+    </id>
+
+
+    <id value="710000">
+      <en>XIAN</en>
+      <cn>西安</cn>
+      <tw>西安</tw>
+    </id>
+
+
+    <id value="712000">
+      <en>XIANYANG</en>
+      <cn>咸阳</cn>
+      <tw>咸陽</tw>
+    </id>
+
+
+    <id value="714000">
+      <en>WEINAN</en>
+      <cn>渭南</cn>
+      <tw>渭南</tw>
+    </id>
+
+
+    <id value="716000">
+      <en>YANAN</en>
+      <cn>延安</cn>
+      <tw>延安</tw>
+    </id>
+
+
+    <id value="721000">
+      <en>BAOJI</en>
+      <cn>宝鸡</cn>
+      <tw>寶雞</tw>
+    </id>
+
+
+    <id value="723000">
+      <en>HANZHONG</en>
+      <cn>汉中</cn>
+      <tw>漢中</tw>
+    </id>
+
+
+    <id value="725000">
+      <en>ANKANG</en>
+      <cn>安康</cn>
+      <tw>安康</tw>
+    </id>
+
+
+    <id value="726000">
+      <en>SHANGLUO</en>
+      <cn>商洛</cn>
+      <tw>商洛</tw>
+    </id>
+
+
+    <id value="727000">
+      <en>TONGCHUAN</en>
+      <cn>铜川</cn>
+      <tw>銅川</tw>
+    </id>
+  </State>
+  <State id="NS0024">
+    <id value="200000-1">
+      <en>HUANGPUQU</en>
+      <cn>黄浦区</cn>
+      <tw>黃浦區</tw>
+    </id>
+
+
+    <id value="200000-2">
+      <en>LUWANQU</en>
+      <cn>卢湾区</cn>
+      <tw>盧灣區</tw>
+    </id>
+
+
+    <id value="200000-3">
+      <en>XUHUIQU</en>
+      <cn>徐汇区</cn>
+      <tw>徐匯區</tw>
+    </id>
+
+
+    <id value="200000-4">
+      <en>CHANGNINGQU</en>
+      <cn>长宁区</cn>
+      <tw>長寧區</tw>
+    </id>
+
+
+    <id value="200000-5">
+      <en>JINGANQU</en>
+      <cn>静安区</cn>
+      <tw>靜安區</tw>
+    </id>
+
+
+    <id value="200000-6">
+      <en>PUTUOQU</en>
+      <cn>普陀区</cn>
+      <tw>普陀區</tw>
+    </id>
+
+
+    <id value="200000-7">
+      <en>ZHABEIQU</en>
+      <cn>闸北区</cn>
+      <tw>閘北區</tw>
+    </id>
+
+
+    <id value="200000-8">
+      <en>HONGKOUQU</en>
+      <cn>虹口区</cn>
+      <tw>虹口區</tw>
+    </id>
+
+
+    <id value="200000-9">
+      <en>YANGPUQU</en>
+      <cn>杨浦区</cn>
+      <tw>楊浦區</tw>
+    </id>
+
+
+    <id value="201100">
+      <en>MINHANGQU</en>
+      <cn>闵行区</cn>
+      <tw>閔行區</tw>
+    </id>
+
+
+    <id value="201200">
+      <en>PUDONGXINQU</en>
+      <cn>浦东新区</cn>
+      <tw>浦東新區</tw>
+    </id>
+
+
+    <id value="201300">
+      <en>NANHUI</en>
+      <cn>南汇镇（惠南镇）</cn>
+      <tw>南匯鎮（惠南鎮）</tw>
+    </id>
+
+
+    <id value="201400">
+      <en>FENGXIAN</en>
+      <cn>奉贤镇（南桥镇）</cn>
+      <tw>奉賢鎮（南橋鎮）</tw>
+    </id>
+
+
+    <id value="201500-1">
+      <en>JINSHANQU</en>
+      <cn>金山区</cn>
+      <tw>金山區</tw>
+    </id>
+
+
+    <id value="201500-2">
+      <en>CONGMING</en>
+      <cn>崇明县（城桥镇）</cn>
+      <tw>崇明縣（城橋鎮）</tw>
+    </id>
+
+
+    <id value="201600">
+      <en>SONGJIANGQU</en>
+      <cn>松江区</cn>
+      <tw>松江區</tw>
+    </id>
+
+
+    <id value="201700">
+      <en>QINGPUQU</en>
+      <cn>青浦区</cn>
+      <tw>青浦區</tw>
+    </id>
+
+
+    <id value="201800">
+      <en>JIADINGQU</en>
+      <cn>嘉定区</cn>
+      <tw>嘉定區</tw>
+    </id>
+
+
+    <id value="201900">
+      <en>BAOSHANQU</en>
+      <cn>宝山区</cn>
+      <tw>寶山區</tw>
+    </id>
+  </State>
+  <State id="NS0025">
+    <id value="610000">
+      <en>CHENGDU</en>
+      <cn>成都</cn>
+      <tw>成都</tw>
+    </id>
+
+
+    <id value="612100">
+      <en>MEISHAN</en>
+      <cn>眉山</cn>
+      <tw>眉山</tw>
+    </id>
+
+
+    <id value="614000">
+      <en>LESHAN</en>
+      <cn>乐山</cn>
+      <tw>樂山</tw>
+    </id>
+
+
+    <id value="615000">
+      <en>XICHANG</en>
+      <cn>梁山彝族自治州（西昌）</cn>
+      <tw>梁山彝族自治州（西昌）</tw>
+    </id>
+
+
+    <id value="617000">
+      <en>PANZHIHUA</en>
+      <cn>攀枝花</cn>
+      <tw>攀枝花</tw>
+    </id>
+
+
+    <id value="618200">
+      <en>DEYANG</en>
+      <cn>德阳</cn>
+      <tw>德陽</tw>
+    </id>
+
+
+    <id value="621000">
+      <en>MIANYANG</en>
+      <cn>绵阳</cn>
+      <tw>綿陽</tw>
+    </id>
+
+
+    <id value="624000">
+      <en>MALVKANGXIAN</en>
+      <cn>阿坝藏族羌族自治州(马尔康县)</cn>
+      <tw>阿壩藏族羌族自治州(瑪律康縣)</tw>
+    </id>
+
+
+    <id value="625000">
+      <en>YAAN</en>
+      <cn>雅安</cn>
+      <tw>雅安</tw>
+    </id>
+
+
+    <id value="626000">
+      <en>KANGDING</en>
+      <cn>甘孜藏族自治州（康定县）</cn>
+      <tw>甘孜藏族自治州（康定縣）</tw>
+    </id>
+
+
+    <id value="628000">
+      <en>GUANGYUAN</en>
+      <cn>广元</cn>
+      <tw>廣元</tw>
+    </id>
+
+
+    <id value="629000">
+      <en>SUINING</en>
+      <cn>遂宁</cn>
+      <tw>遂寧</tw>
+    </id>
+
+
+    <id value="635000">
+      <en>DAZHOU</en>
+      <cn>达州</cn>
+      <tw>達州</tw>
+    </id>
+
+
+    <id value="635500">
+      <en>BAZHONG</en>
+      <cn>巴中</cn>
+      <tw>巴中</tw>
+    </id>
+
+
+    <id value="637100">
+      <en>NANCHONG</en>
+      <cn>南充</cn>
+      <tw>南充</tw>
+    </id>
+
+
+    <id value="638000">
+      <en>GUANGAN</en>
+      <cn>广安</cn>
+      <tw>廣安</tw>
+    </id>
+
+
+    <id value="641000">
+      <en>NEIJIANG</en>
+      <cn>内江</cn>
+      <tw>內江</tw>
+    </id>
+
+
+    <id value="641300">
+      <en>ZIYANG</en>
+      <cn>资阳</cn>
+      <tw>資陽</tw>
+    </id>
+
+
+    <id value="643000">
+      <en>ZIGONG</en>
+      <cn>自贡</cn>
+      <tw>自貢</tw>
+    </id>
+
+
+    <id value="644000">
+      <en>YIBIN</en>
+      <cn>宜宾</cn>
+      <tw>宜賓</tw>
+    </id>
+
+
+    <id value="646000">
+      <en>LUZHOU</en>
+      <cn>泸州</cn>
+      <tw>瀘州</tw>
+    </id>
+  </State>
+  <State id="NS0026">
+    <id value="300000-1">
+      <en>HEPINGQU</en>
+      <cn>和平区</cn>
+      <tw>和平區</tw>
+    </id>
+
+
+    <id value="300000-10">
+      <en>HONGQIAOQU</en>
+      <cn>红桥区</cn>
+      <tw>紅橋區</tw>
+    </id>
+
+
+    <id value="300000-11">
+      <en>JINNANQU</en>
+      <cn>津南区</cn>
+      <tw>津南區</tw>
+    </id>
+
+
+    <id value="300000-2">
+      <en>HEXIQU</en>
+      <cn>河西区</cn>
+      <tw>河西區</tw>
+    </id>
+
+
+    <id value="300000-3">
+      <en>HEBEIQU</en>
+      <cn>河北区</cn>
+      <tw>河北區</tw>
+    </id>
+
+
+    <id value="300000-4">
+      <en>DAGANGQU</en>
+      <cn>大港区</cn>
+      <tw>大港區</tw>
+    </id>
+
+
+    <id value="300000-5">
+      <en>XIQINGQU</en>
+      <cn>西青区</cn>
+      <tw>西青區</tw>
+    </id>
+
+
+    <id value="300000-6">
+      <en>BEICHENQU</en>
+      <cn>北辰区</cn>
+      <tw>北辰區</tw>
+    </id>
+
+
+    <id value="300000-7">
+      <en>DONGLIQU</en>
+      <cn>东丽区</cn>
+      <tw>東麗區</tw>
+    </id>
+
+
+    <id value="300000-8">
+      <en>HEDONGQU</en>
+      <cn>河东区</cn>
+      <tw>河東區</tw>
+    </id>
+
+
+    <id value="300000-9">
+      <en>NANKAIQU</en>
+      <cn>南开区</cn>
+      <tw>南開區</tw>
+    </id>
+
+
+    <id value="300450">
+      <en>TANGGUQU</en>
+      <cn>塘沽区</cn>
+      <tw>塘沽區</tw>
+    </id>
+
+
+    <id value="300480">
+      <en>HANGUQU</en>
+      <cn>汉沽区</cn>
+      <tw>漢沽區</tw>
+    </id>
+
+
+    <id value="301500">
+      <en>NINGHEXIAN</en>
+      <cn>宁河县</cn>
+      <tw>寧河縣</tw>
+    </id>
+
+
+    <id value="301600">
+      <en>JINGHAIQU </en>
+      <cn>静海县</cn>
+      <tw>靜海縣</tw>
+    </id>
+
+
+    <id value="301700">
+      <en>WUQINGQU</en>
+      <cn>武清区</cn>
+      <tw>武清區</tw>
+    </id>
+
+
+    <id value="301800">
+      <en>BAODIQU</en>
+      <cn>宝坻区</cn>
+      <tw>寶坻區</tw>
+    </id>
+
+
+    <id value="301900">
+      <en>JIXIAN</en>
+      <cn>蓟县</cn>
+      <tw>薊縣</tw>
+    </id>
+  </State>
+  <State id="NS0027">
+    <id value="850000">
+      <en>LASA</en>
+      <cn>拉萨</cn>
+      <tw>拉薩</tw>
+    </id>
+
+
+    <id value="852000">
+      <en>NAQUDIQU</en>
+      <cn>那曲地区（那曲县）</cn>
+      <tw>那曲地區（那曲縣）</tw>
+    </id>
+
+
+    <id value="854000">
+      <en>CHANGQUDIQU</en>
+      <cn>昌都地区（昌都县）</cn>
+      <tw>昌都地區（昌都縣）</tw>
+    </id>
+
+
+    <id value="856000">
+      <en>SHANNANDIQU</en>
+      <cn>山南地区（乃东县）</cn>
+      <tw>山南地區（乃東縣）</tw>
+    </id>
+
+
+    <id value="857000">
+      <en>RIKEZEDIQU</en>
+      <cn>日喀则地区（日喀则）</cn>
+      <tw>日喀則地區（日喀則）</tw>
+    </id>
+
+
+    <id value="859000">
+      <en>ALIDIQU</en>
+      <cn>阿里地区（噶尔县）</cn>
+      <tw>阿裡地區（噶爾縣）</tw>
+    </id>
+
+
+    <id value="860000">
+      <en>LINZHIDIQU</en>
+      <cn>林芝地区（林芝县八一镇）</cn>
+      <tw>林芝地區（林芝縣八一鎮）</tw>
+    </id>
+  </State>
+  <State id="NS0028">
+    <id value="830000">
+      <en>WULUMUQI</en>
+      <cn>乌鲁木齐市</cn>
+      <tw>烏魯木齊市</tw>
+    </id>
+
+
+    <id value="831100">
+      <en>CHANGJI</en>
+      <cn>昌吉回族自治州</cn>
+      <tw>昌吉回族自治州</tw>
+    </id>
+
+
+    <id value="831300">
+      <en>WUJIAQU</en>
+      <cn>五家渠市</cn>
+      <tw>五家渠市</tw>
+    </id>
+
+
+    <id value="832000">
+      <en>SHIHEZI</en>
+      <cn>石河子市</cn>
+      <tw>石河子市</tw>
+    </id>
+
+
+    <id value="833400">
+      <en>BOERTALA</en>
+      <cn>博尔塔拉蒙古自治州</cn>
+      <tw>博爾塔拉蒙古自治州</tw>
+    </id>
+
+
+    <id value="834000">
+      <en>KELAMAYI</en>
+      <cn>克拉玛依市</cn>
+      <tw>克拉瑪依市</tw>
+    </id>
+
+
+    <id value="834700">
+      <en>TACHENGDIQU</en>
+      <cn>塔城地区</cn>
+      <tw>塔城地區</tw>
+    </id>
+
+
+    <id value="835000">
+      <en>YILI</en>
+      <cn>伊犁哈萨克自治州</cn>
+      <tw>伊犁哈薩克自治州</tw>
+    </id>
+
+
+    <id value="836500">
+      <en>ALETAIDIQU</en>
+      <cn>阿勒泰地区</cn>
+      <tw>阿勒泰地區</tw>
+    </id>
+
+
+    <id value="838000">
+      <en>TULUFAN</en>
+      <cn>吐鲁番地区</cn>
+      <tw>吐魯番地區</tw>
+    </id>
+
+
+    <id value="839000">
+      <en>HAMI</en>
+      <cn>哈密地区</cn>
+      <tw>哈密地區</tw>
+    </id>
+
+
+    <id value="841000">
+      <en>BAYINGUOLENG</en>
+      <cn>巴音郭楞蒙古自治州</cn>
+      <tw>巴音郭楞蒙古自治州</tw>
+    </id>
+
+
+    <id value="843000">
+      <en>AKESUDIQU</en>
+      <cn>阿克苏地区</cn>
+      <tw>阿克蘇地區</tw>
+    </id>
+
+
+    <id value="843300">
+      <en>ALAER</en>
+      <cn>阿拉尔市</cn>
+      <tw>阿拉爾市</tw>
+    </id>
+
+
+    <id value="844000-1">
+      <en>KESHIDIQU</en>
+      <cn>喀什地区</cn>
+      <tw>喀什地區</tw>
+    </id>
+
+
+    <id value="844000-2">
+      <en>TUMIUSHUKE</en>
+      <cn>图木舒克市</cn>
+      <tw>圖木舒克市</tw>
+    </id>
+
+
+    <id value="845350">
+      <en>KEZILESUKEERKEZI</en>
+      <cn>克孜勒苏柯尔克孜自治州</cn>
+      <tw>克孜勒蘇柯爾克孜自治州</tw>
+    </id>
+
+
+    <id value="848000">
+      <en>HETIANDIQU</en>
+      <cn>和田地区</cn>
+      <tw>和田地區</tw>
+    </id>
+  </State>
+  <State id="NS0029">
+    <id value="650000">
+      <en>KUNMING</en>
+      <cn>昆明市</cn>
+      <tw>昆明市</tw>
+    </id>
+
+
+    <id value="653100">
+      <en>YUQI</en>
+      <cn>玉溪市</cn>
+      <tw>玉溪市</tw>
+    </id>
+
+
+    <id value="655000">
+      <en>QUJING</en>
+      <cn>曲靖市</cn>
+      <tw>曲靖市</tw>
+    </id>
+
+
+    <id value="657000">
+      <en>ZHAOTONG</en>
+      <cn>昭通市</cn>
+      <tw>昭通市</tw>
+    </id>
+
+
+    <id value="661400">
+      <en>HONGHE</en>
+      <cn>红河哈尼族彝族自治州</cn>
+      <tw>紅河哈尼族彝族自治州</tw>
+    </id>
+
+
+    <id value="663000">
+      <en>WENSHAN</en>
+      <cn>文山壮族苗族自治州</cn>
+      <tw>文山壯族苗族自治州</tw>
+    </id>
+
+
+    <id value="665000">
+      <en>PUER</en>
+      <cn>普洱市</cn>
+      <tw>普洱市</tw>
+    </id>
+
+
+    <id value="666100">
+      <en>XISHUANGBANNA</en>
+      <cn>西双版纳傣族自治州</cn>
+      <tw>西雙版納傣族自治州</tw>
+    </id>
+
+
+    <id value="671000">
+      <en>DALI</en>
+      <cn>大理白族自治州</cn>
+      <tw>大理白族自治州</tw>
+    </id>
+
+
+    <id value="673100">
+      <en>NUJIANG</en>
+      <cn>怒江傈僳族自治州</cn>
+      <tw>怒江傈僳族自治州</tw>
+    </id>
+
+
+    <id value="674100">
+      <en>LIJIANG</en>
+      <cn>丽江市</cn>
+      <tw>麗江市</tw>
+    </id>
+
+
+    <id value="674400">
+      <en>DIQING</en>
+      <cn>迪庆藏族自治州</cn>
+      <tw>迪慶藏族自治州</tw>
+    </id>
+
+
+    <id value="675000">
+      <en>CHUXIONG</en>
+      <cn>楚雄彝族自治州</cn>
+      <tw>楚雄彝族自治州</tw>
+    </id>
+
+
+    <id value="677000">
+      <en>LINCANG</en>
+      <cn>临沧市</cn>
+      <tw>臨滄市</tw>
+    </id>
+
+
+    <id value="678000">
+      <en>BAOSHAN</en>
+      <cn>保山市</cn>
+      <tw>保山市</tw>
+    </id>
+
+
+    <id value="678400">
+      <en>DEHONG</en>
+      <cn>德宏傣族景颇族自治州</cn>
+      <tw>德宏傣族景頗族自治州</tw>
+    </id>
+  </State>
+  <State id="NS0030">
+    <id value="310000">
+      <en>HANGZHOU</en>
+      <cn>杭州</cn>
+      <tw>杭州</tw>
+    </id>
+
+
+    <id value="312000">
+      <en>SHAOXING</en>
+      <cn>绍兴</cn>
+      <tw>紹興</tw>
+    </id>
+
+
+    <id value="313000">
+      <en>HUZHOU</en>
+      <cn>湖州</cn>
+      <tw>湖州</tw>
+    </id>
+
+
+    <id value="314000">
+      <en>JIAXING</en>
+      <cn>嘉兴</cn>
+      <tw>嘉興</tw>
+    </id>
+
+
+    <id value="315000">
+      <en>NINGBO</en>
+      <cn>宁波</cn>
+      <tw>寧波</tw>
+    </id>
+
+
+    <id value="316000">
+      <en>ZHOUSHAN</en>
+      <cn>舟山</cn>
+      <tw>舟山</tw>
+    </id>
+
+
+    <id value="317000">
+      <en>TAIZHOU</en>
+      <cn>台州</cn>
+      <tw>台州</tw>
+    </id>
+
+
+    <id value="321000">
+      <en>JINHUA</en>
+      <cn>金华</cn>
+      <tw>金華</tw>
+    </id>
+
+
+    <id value="323000">
+      <en>LISHUI</en>
+      <cn>丽水</cn>
+      <tw>麗水</tw>
+    </id>
+
+
+    <id value="324000">
+      <en>QUZHOU</en>
+      <cn>衢州</cn>
+      <tw>衢州</tw>
+    </id>
+
+
+    <id value="325000">
+      <en>WENZHOU</en>
+      <cn>温州</cn>
+      <tw>溫州</tw>
+    </id>
+  </State>
+  <State id="NS0031">
+    <id value="400000-1">
+      <en>YUZHONGQU</en>
+      <cn>渝中区</cn>
+      <tw>渝中區</tw>
+    </id>
+
+
+    <id value="400000-2">
+      <en>JIANGBEIQU</en>
+      <cn>江北区</cn>
+      <tw>江北區</tw>
+    </id>
+
+
+    <id value="400000-3">
+      <en>JIULONGPOQU</en>
+      <cn>九龙坡区</cn>
+      <tw>九龍坡區</tw>
+    </id>
+
+
+    <id value="400000-4">
+      <en>DADUKOUQU</en>
+      <cn>大渡口区</cn>
+      <tw>大渡口區</tw>
+    </id>
+
+
+    <id value="400000-5">
+      <en>SHAPINGBAQU</en>
+      <cn>沙坪坝区</cn>
+      <tw>沙坪壩區</tw>
+    </id>
+
+
+    <id value="400000-6">
+      <en>NANANQU</en>
+      <cn>南岸区</cn>
+      <tw>南岸區</tw>
+    </id>
+
+
+    <id value="400700">
+      <en>BEIBEIQU</en>
+      <cn>北碚区</cn>
+      <tw>北碚區</tw>
+    </id>
+
+
+    <id value="400800">
+      <en>WANGSHENGQU</en>
+      <cn>万盛区</cn>
+      <tw>萬盛區</tw>
+    </id>
+
+
+    <id value="400900">
+      <en>SHUANGQIAOQU</en>
+      <cn>双桥区</cn>
+      <tw>雙橋區</tw>
+    </id>
+
+
+    <id value="401120">
+      <en>YUBEIQU</en>
+      <cn>渝北区</cn>
+      <tw>渝北區</tw>
+    </id>
+
+
+    <id value="401220">
+      <en>CHANGSHOUQU</en>
+      <cn>长寿区</cn>
+      <tw>長壽區</tw>
+    </id>
+
+
+    <id value="401320">
+      <en>BANANQU</en>
+      <cn>巴南区</cn>
+      <tw>巴南區</tw>
+    </id>
+
+
+    <id value="401420">
+      <en>QIJIANGXIAN</en>
+      <cn>綦江县</cn>
+      <tw>綦江縣</tw>
+    </id>
+
+
+    <id value="401520">
+      <en>HECHUANQU</en>
+      <cn>合川区</cn>
+      <tw>合川區</tw>
+    </id>
+
+
+    <id value="402160">
+      <en>YONGCHUANQU</en>
+      <cn>永川区</cn>
+      <tw>永川區</tw>
+    </id>
+
+
+    <id value="402260">
+      <en>JIANGJINQU</en>
+      <cn>江津区</cn>
+      <tw>江津區</tw>
+    </id>
+
+
+    <id value="402360">
+      <en>DAZUXIAN</en>
+      <cn>大足县</cn>
+      <tw>大足縣</tw>
+    </id>
+
+
+    <id value="402460">
+      <en>RONGCHANGXIAN</en>
+      <cn>荣昌县</cn>
+      <tw>榮昌縣</tw>
+    </id>
+
+
+    <id value="402560">
+      <en>TONGLIANGXIAN</en>
+      <cn>铜梁县</cn>
+      <tw>銅梁縣</tw>
+    </id>
+
+
+    <id value="402660">
+      <en>TONGNANQU</en>
+      <cn>潼南县</cn>
+      <tw>潼南縣</tw>
+    </id>
+
+
+    <id value="402760">
+      <en>BISHANXIAN</en>
+      <cn>璧山县</cn>
+      <tw>璧山縣</tw>
+    </id>
+
+
+    <id value="404100">
+      <en>WANGZHOUQU</en>
+      <cn>万州区</cn>
+      <tw>萬州區</tw>
+    </id>
+
+
+    <id value="404300">
+      <en>ZHONGXIAN</en>
+      <cn>忠县</cn>
+      <tw>忠縣</tw>
+    </id>
+
+
+    <id value="404500">
+      <en>WUYANGXIAN</en>
+      <cn>云阳县</cn>
+      <tw>雲陽縣</tw>
+    </id>
+
+
+    <id value="404600">
+      <en>FENGJIEXIAN</en>
+      <cn>奉节县</cn>
+      <tw>奉節縣</tw>
+    </id>
+
+
+    <id value="404700">
+      <en>WUSHANXIAN</en>
+      <cn>巫山县</cn>
+      <tw>巫山縣</tw>
+    </id>
+
+
+    <id value="405200">
+      <en>LIANGPINGXIAN</en>
+      <cn>梁平县</cn>
+      <tw>梁平縣</tw>
+    </id>
+
+
+    <id value="405400">
+      <en>KAIXIAN</en>
+      <cn>开县</cn>
+      <tw>開縣</tw>
+    </id>
+
+
+    <id value="405800">
+      <en>WUXIXIAN</en>
+      <cn>巫溪县</cn>
+      <tw>巫溪縣</tw>
+    </id>
+
+
+    <id value="405900">
+      <en>CHENGKOUXIAN</en>
+      <cn>城口县</cn>
+      <tw>城口縣</tw>
+    </id>
+
+
+    <id value="408000">
+      <en>FULINGQU</en>
+      <cn>涪陵区</cn>
+      <tw>涪陵區</tw>
+    </id>
+
+
+    <id value="408200">
+      <en>FENGDUXIAN</en>
+      <cn>丰都县</cn>
+      <tw>豐都縣</tw>
+    </id>
+
+
+    <id value="408300">
+      <en>DIANJIANGXIAN</en>
+      <cn>垫江县</cn>
+      <tw>墊江縣</tw>
+    </id>
+
+
+    <id value="408400">
+      <en>NANCHUANQU</en>
+      <cn>南川区</cn>
+      <tw>南川區</tw>
+    </id>
+
+
+    <id value="408500">
+      <en>WULONGXIAN</en>
+      <cn>武隆县</cn>
+      <tw>武隆縣</tw>
+    </id>
+
+
+    <id value="409000">
+      <en>QIANJIANGQU</en>
+      <cn>黔江区</cn>
+      <tw>黔江區</tw>
+    </id>
+
+
+    <id value="409100">
+      <en>SHIZHUXIAN</en>
+      <cn>石柱土家族自治县</cn>
+      <tw>石柱土家族自治縣</tw>
+    </id>
+
+
+    <id value="409600">
+      <en>PENGSHUIXIAN</en>
+      <cn>彭水苗族土家族自治县</cn>
+      <tw>彭水苗族土家族自治縣</tw>
+    </id>
+
+
+    <id value="409800">
+      <en>YOUYANGXIAN</en>
+      <cn>酉阳土家族苗族自治县</cn>
+      <tw>酉陽土家族苗族自治縣</tw>
+    </id>
+
+
+    <id value="409900">
+      <en>XIUSHANXIAN</en>
+      <cn>秀山土家族苗族自治县</cn>
+      <tw>秀山土家族苗族自治縣</tw>
+    </id>
+  </State>
+  <State id="NS0032">
+    <id value="00853-1">
+      <en>Macau Peninsula</en>
+      <cn>澳门半岛</cn>
+      <tw>澳門半島</tw>
+    </id>
+
+
+    <id value="00853-2">
+      <en>Taipa</en>
+      <cn>凼仔岛</cn>
+      <tw>氹仔島</tw>
+    </id>
+
+
+    <id value="00853-3">
+      <en>Coloane</en>
+      <cn>路环岛</cn>
+      <tw>路環島</tw>
+    </id>
+  </State>
+  <State id="NS0033">
+    <id value="00852-1">
+      <en>Central And Western District</en>
+      <cn>中西区</cn>
+      <tw>中西區</tw>
+    </id>
+
+
+    <id value="00852-10">
+      <en>Island District</en>
+      <cn>离岛区</cn>
+      <tw>離島區</tw>
+    </id>
+
+
+    <id value="00852-11">
+      <en>Kwan Tsing District</en>
+      <cn>葵青区</cn>
+      <tw>葵青區</tw>
+    </id>
+
+
+    <id value="00852-12">
+      <en>North District</en>
+      <cn>北区</cn>
+      <tw>北區</tw>
+    </id>
+
+
+    <id value="00852-13">
+      <en>Sai Kung District</en>
+      <cn>西贡区</cn>
+      <tw>西貢區</tw>
+    </id>
+
+
+    <id value="00852-14">
+      <en>Sha Tin  District</en>
+      <cn>沙田区</cn>
+      <tw>沙田區</tw>
+    </id>
+
+
+    <id value="00852-15">
+      <en>Tuen Mum  District</en>
+      <cn>屯门区</cn>
+      <tw>屯門區</tw>
+    </id>
+
+
+    <id value="00852-16">
+      <en>Tai Po  District</en>
+      <cn>大埔区</cn>
+      <tw>大埔區</tw>
+    </id>
+
+
+    <id value="00852-17">
+      <en>Tsuen Wan  District</en>
+      <cn>荃湾区</cn>
+      <tw>荃灣區</tw>
+    </id>
+
+
+    <id value="00852-18">
+      <en>Yuen Long  District</en>
+      <cn>元朗区</cn>
+      <tw>元朗區</tw>
+    </id>
+
+
+    <id value="00852-2">
+      <en>East District</en>
+      <cn>东区</cn>
+      <tw>東區</tw>
+    </id>
+
+
+    <id value="00852-3">
+      <en>Kowloon City District</en>
+      <cn>九龙城区</cn>
+      <tw>九龍城區</tw>
+    </id>
+
+
+    <id value="00852-4">
+      <en>Kwun Tong  District</en>
+      <cn>观塘区</cn>
+      <tw>觀塘區</tw>
+    </id>
+
+
+    <id value="00852-5">
+      <en>South District</en>
+      <cn>南区</cn>
+      <tw>南區</tw>
+    </id>
+
+
+    <id value="00852-6">
+      <en>Sham Shui Po  District</en>
+      <cn>深水埗区</cn>
+      <tw>深水埗區</tw>
+    </id>
+
+
+    <id value="00852-7">
+      <en>Wong Tai Sin  District</en>
+      <cn>黄大仙区</cn>
+      <tw>黃大仙區</tw>
+    </id>
+
+
+    <id value="00852-8">
+      <en>Wan Chai   District</en>
+      <cn>湾仔区</cn>
+      <tw>灣仔區</tw>
+    </id>
+
+
+    <id value="00852-9">
+      <en>Yau Tsim Mong District</en>
+      <cn>油尖旺区</cn>
+      <tw>油尖旺區</tw>
+    </id>
+  </State>
+</City>
