@@ -1,0 +1,283 @@
+;============================================================================ 
+; Installation file (.inf) for Windows 8.
+;
+; Copyright (c) ASUS Tek
+;============================================================================
+
+[Version]
+Signature   = "$Windows NT$"
+Class		= HIDClass
+ClassGuid	= {745a17a0-74d3-11d0-b6fe-00a0c90f57da};HIDClassGuid
+Provider    = %VenderName%
+DriverVer = 05/14/2018,11.0.0.26
+CatalogFile = AsusPTPFilter.cat
+
+
+[DestinationDirs]
+DefaultDestDir					= 12    ; DIRID_DRIVERS
+AsusPTP_Inst.CopyFiles.NT		= 12    ; Driver directory
+
+ 
+;----------------------------------------------------------------------------
+; Common File Copy and Registry Operations
+;----------------------------------------------------------------------------
+[AsusPTP_Inst.CopyFiles.NT]
+AsusPTPFilter.sys
+
+
+;----------------------------------------------------------------------------
+; Manufacturer Section
+;----------------------------------------------------------------------------
+[Manufacturer]
+%VenderName%=ASUSMfg, NTamd64, NTx86, NTARM64
+
+
+[ASUSMfg.NTx86]
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1200&Col02						;ELAN PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1201&Col02						;ELAN PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1202&Col02						;ELAN PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2200&Col02						;ELAN PTP 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2201&Col02						;ELAN PTP 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2202&Col02						;ELAN PTP 10' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1203&Col02						;ELAN PTP SmartPad
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1204&Col02						;ELAN PTP 12' chorme book Gen4E 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1214&Col02						;ELAN PTP 12' chorme book Gen5C 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1300&Col02						;ELAN PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1301&Col02						;ELAN PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2300&Col02						;ELAN PTP with finger print 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2301&Col02						;ELAN PTP with finger print 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1200&Col02						;Focal PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1201&Col02						;Focal PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1202&Col02						;Focal PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1300&Col02						;Focal PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1301&Col02						;Focal PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1200&Col02						;Goodix PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1300&Col02						;Goodix PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1301&Col02						;Goodix PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_182F&MI_02&Col02		;EC USB Docking (T302CHI)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1838&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1839&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183D&MI_02&Col02		;EC USB Docking (T101HA)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183B&MI_02&Col02		;DoKingTech USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184A&MI_01&Col02		;Acrox USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184B&MI_01&Col02		;Primax soft USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\VID_04F3&PID_3067&MI_01&Col02		;For PS2 phase-out
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1879&MI_02&Col02		;WHQL (Test)
+;%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID_DEVICE_UP:000D_U:0005				;PTP Devices
+
+
+[ASUSMfg.NTamd64]
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1200&Col02						;ELAN PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1201&Col02						;ELAN PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1202&Col02						;ELAN PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2200&Col02						;ELAN PTP 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2201&Col02						;ELAN PTP 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2202&Col02						;ELAN PTP 10' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1203&Col02						;ELAN PTP SmartPad
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1204&Col02						;ELAN PTP 12' chorme book Gen4E 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1214&Col02						;ELAN PTP 12' chorme book Gen5C 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1300&Col02						;ELAN PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1301&Col02						;ELAN PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2300&Col02						;ELAN PTP with finger print 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2301&Col02						;ELAN PTP with finger print 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1200&Col02						;Focal PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1201&Col02						;Focal PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1202&Col02						;Focal PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1300&Col02						;Focal PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1301&Col02						;Focal PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1200&Col02						;Goodix PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1300&Col02						;Goodix PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1301&Col02						;Goodix PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_182F&MI_02&Col02		;EC USB Docking (T302CHI)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1838&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1839&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183D&MI_02&Col02		;EC USB Docking (T101HA)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183B&MI_02&Col02		;DoKingTech USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184A&MI_01&Col02		;Acrox USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184B&MI_01&Col02		;Primax USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\VID_04F3&PID_3067&MI_01&Col02		;For PS2 phase-out
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1879&MI_02&Col02		;WHQL (Test)
+;%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID_DEVICE_UP:000D_U:0005				;PTP Devices
+
+
+[ASUSMfg.NTARM64]
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1200&Col02						;ELAN PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1201&Col02						;ELAN PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1202&Col02						;ELAN PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2200&Col02						;ELAN PTP 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2201&Col02						;ELAN PTP 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2202&Col02						;ELAN PTP 10' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1203&Col02						;ELAN PTP SmartPad
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1204&Col02						;ELAN PTP 12' chorme book Gen4E 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1214&Col02						;ELAN PTP 12' chorme book Gen5C 
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1300&Col02						;ELAN PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN1301&Col02						;ELAN PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2300&Col02						;ELAN PTP with finger print 15' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\ELAN2301&Col02						;ELAN PTP with finger print 14' new
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1200&Col02						;Focal PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1201&Col02						;Focal PTP 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1202&Col02						;Focal PTP 10'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1300&Col02						;Focal PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\FTE1301&Col02						;Focal PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1200&Col02						;Goodix PTP 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1300&Col02						;Goodix PTP with finger print 15'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\GDX1301&Col02						;Goodix PTP with finger print 14'
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_182F&MI_02&Col02		;EC USB Docking (T302CHI)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1838&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1839&MI_02&Col02		;Chicony USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183D&MI_02&Col02		;EC USB Docking (T101HA)
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_183B&MI_02&Col02		;DoKingTech USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184A&MI_01&Col02		;Acrox USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_184B&MI_01&Col02		;Primax USB Docking
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\VID_04F3&PID_3067&MI_01&Col02		;For PS2 phase-out
+%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID\Vid_0B05&Pid_1879&MI_02&Col02		;WHQL (Test)
+;%ASUS_INPUT_DEVICE.DeviceDesc%=AsusPTP_Inst, HID_DEVICE_UP:000D_U:0005				;PTP Devices
+
+
+[AsusPTP_Inst.NT]
+FeatureScore=00
+CopyFiles= AsusPTP_Inst.CopyFiles.NT
+
+
+;-------------- Service installation
+[AsusPTP_Inst.NT.Services]
+AddService = AsusPTPDrv,%SPSVCINST_ASSOCSERVICE%, AsusPTP_Service_Inst
+
+
+;-------------- PTPFilter driver install sections
+[AsusPTP_Service_Inst]
+DisplayName    = %AsusPTP.SvcDesc%
+ServiceType    = 1  ;SERVICE_KERNEL_DRIVER
+StartType      = 3  ;SERVICE_DEMAND_START
+ErrorControl   = 1  ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\AsusPTPFilter.sys
+LoadOrderGroup = Extended Base
+AddReg	       = AsusPTPDrv_Service_AddReg, AsusPTPDrv_Service_ALGO_AddReg
+DelReg	       = AsusPTPDrv_Service_DelReg, AsusPTPDrv_Service_ALGO_DelReg
+
+
+[AsusPTPDrv_Service_ALGO_AddReg]
+;DWORD Example (REG_MULTI_SZ: 0x00010000, REG_DWORD: 0x00010001, REG_BINARY: 0x00000001)
+; Speed up Flag // Fin3SpeedUpFlag, ScorllsSeedUpFlag
+HKR,Parameters\AlgoParameters,"FLAG_0",0x00010001,1 
+HKR,Parameters\AlgoParameters,"FLAG_1",0x00010001,1
+HKR,Parameters\AlgoParameters,"FLAG_2",0x00010001,1
+HKR,Parameters\AlgoParameters,"FLAG_3",0x00010001,1
+HKR,Parameters\AlgoParameters,"FLAG_4",0x00010001,1
+HKR,Parameters\AlgoParameters,"FLAG_5",0x00010001,0
+HKR,Parameters\AlgoParameters,"FLAG_6",0x00010001,3			; FP protect times
+HKR,Parameters\AlgoParameters,"FLAG_7",0x00010001,1			; filter for scroll
+
+; Ratio value // SPEEDUP_RATIO, FIN3_SPEEDUP_RATIO, SPPEDUPAREA_SHIFT_L_RATIO, SPPEDUPAREA_SHIFT_R_RATIO, SPPEDUPAREA_SHIFT_B_RATIO, SPPEDUPAREA_SHIFT_T_RATIO
+; Ratio value // TAPPING_DEFLATE_L_RATIO, TAPPING_DEFLATE_R_RATIO, TAPPING_DEFLATE_B_RATIO, TAPPING_DEFLATE_T_RATIO
+HKR,Parameters\AlgoParameters,"RATIO_0",0x00010001,4
+HKR,Parameters\AlgoParameters,"RATIO_1",0x00010001,7
+HKR,Parameters\AlgoParameters,"RATIO_2",0x00010001,5
+HKR,Parameters\AlgoParameters,"RATIO_3",0x00010001,5
+HKR,Parameters\AlgoParameters,"RATIO_4",0x00010001,12
+HKR,Parameters\AlgoParameters,"RATIO_5",0x00010001,0
+HKR,Parameters\AlgoParameters,"RATIO_6",0x00010001,10
+HKR,Parameters\AlgoParameters,"RATIO_7",0x00010001,10
+HKR,Parameters\AlgoParameters,"RATIO_8",0x00010001,10
+HKR,Parameters\AlgoParameters,"RATIO_9",0x00010001,0
+HKR,Parameters\AlgoParameters,"RATIO_10",0x00010001,10
+HKR,Parameters\AlgoParameters,"RATIO_11",0x00010001,10
+HKR,Parameters\AlgoParameters,"RATIO_12",0x00010001,16
+HKR,Parameters\AlgoParameters,"RATIO_13",0x00010001,0
+HKR,Parameters\AlgoParameters,"RATIO_14",0x00010001,300
+HKR,Parameters\AlgoParameters,"RATIO_15",0x00010001,100
+HKR,Parameters\AlgoParameters,"RATIO_16",0x00010001,450 
+HKR,Parameters\AlgoParameters,"RATIO_17",0x00010001,0				; filter for scroll ratio
+HKR,Parameters\AlgoParameters,"RATIO_18",0x00010001,25				; Resting finger area (0 ~ 100)
+HKR,Parameters\AlgoParameters,"RATIO_19",0x00010001,4				; Edge palm: Left ratio
+HKR,Parameters\AlgoParameters,"RATIO_20",0x00010001,4				; Edge palm: right ratio
+HKR,Parameters\AlgoParameters,"RATIO_21",0x00010001,6				; Edge palm: Top ratio
+HKR,Parameters\AlgoParameters,"RATIO_22",0x00010001,0				; Edge palm: bottom ratio
+
+; Minimeter value // MOVING_THRESHOLD_MM, MAX_SPEEDUP_THRESHOLD_MM, TAPPING_THRESHOLD_MM
+HKR,Parameters\AlgoParameters,"MINIMETER_0",0x00010001,15
+HKR,Parameters\AlgoParameters,"MINIMETER_1",0x00010001,100
+HKR,Parameters\AlgoParameters,"MINIMETER_2",0x00010001,6
+HKR,Parameters\AlgoParameters,"MINIMETER_3",0x00010001,50
+HKR,Parameters\AlgoParameters,"MINIMETER_4",0x00010001,4
+HKR,Parameters\AlgoParameters,"MINIMETER_5",0x00010001,4
+HKR,Parameters\AlgoParameters,"MINIMETER_6",0x00010001,6
+HKR,Parameters\AlgoParameters,"MINIMETER_7",0x00010001,28
+HKR,Parameters\AlgoParameters,"MINIMETER_8",0x00010001,10
+HKR,Parameters\AlgoParameters,"MINIMETER_9",0x00010001,4
+HKR,Parameters\AlgoParameters,"MINIMETER_10",0x00010001,10
+HKR,Parameters\AlgoParameters,"MINIMETER_11",0x00010001,15
+HKR,Parameters\AlgoParameters,"MINIMETER_12",0x00010001,20
+HKR,Parameters\AlgoParameters,"MINIMETER_13",0x00010001,24
+HKR,Parameters\AlgoParameters,"MINIMETER_14",0x00010001,30			; FP Extend physical size X
+HKR,Parameters\AlgoParameters,"MINIMETER_15",0x00010001,30			; FP Extend physical size Y
+HKR,Parameters\AlgoParameters,"MINIMETER_16",0x00010001,10			; scrolling filter distance 1mm
+HKR,Parameters\AlgoParameters,"MINIMETER_17",0x00010001,10			; scrolling filter Counter
+
+; Set Logical Size and Physical Size
+HKR,Parameters\AlgoParameters,"PHYSICAL_0",0x00010001,0		;Physical X Size
+HKR,Parameters\AlgoParameters,"PHYSICAL_1",0x00010001,0		;Physical Y Size
+
+[AsusPTPDrv_Service_AddReg]
+HKR,Parameters\SupportList,"HWID_0",0x00010000,"ELAN1200"
+HKR,Parameters\SupportList,"HWID_1",0x00010000,"ELAN1201"
+HKR,Parameters\SupportList,"HWID_2",0x00010000,"ELAN1202"
+HKR,Parameters\SupportList,"HWID_3",0x00010000,"ELAN2200"
+HKR,Parameters\SupportList,"HWID_4",0x00010000,"ELAN2201"
+HKR,Parameters\SupportList,"HWID_5",0x00010000,"ELAN2202"
+HKR,Parameters\SupportList,"HWID_6",0x00010000,"ELAN1203"
+HKR,Parameters\SupportList,"HWID_7",0x00010000,"ELAN1204"
+HKR,Parameters\SupportList,"HWID_8",0x00010000,"ELAN1214"
+HKR,Parameters\SupportList,"HWID_9",0x00010000,"ELAN1300"
+HKR,Parameters\SupportList,"HWID_10",0x00010000,"ELAN1301"
+HKR,Parameters\SupportList,"HWID_11",0x00010000,"ELAN2300"
+HKR,Parameters\SupportList,"HWID_12",0x00010000,"ELAN2301"
+HKR,Parameters\SupportList,"HWID_13",0x00010000,"FTE1200"
+HKR,Parameters\SupportList,"HWID_14",0x00010000,"FTE1201"
+HKR,Parameters\SupportList,"HWID_15",0x00010000,"FTE1202"
+HKR,Parameters\SupportList,"HWID_16",0x00010000,"FTE1300"
+HKR,Parameters\SupportList,"HWID_17",0x00010000,"FTE1301"
+HKR,Parameters\SupportList,"HWID_18",0x00010000,"GDX1200"
+HKR,Parameters\SupportList,"HWID_19",0x00010000,"GDX1300"
+HKR,Parameters\SupportList,"HWID_20",0x00010000,"GDX1301"
+HKR,Parameters\SupportList,"HWID_21",0x00010000,"VID_0B05&PID_182F&MI_02"
+HKR,Parameters\SupportList,"HWID_22",0x00010000,"VID_0B05&PID_1838&MI_02"
+HKR,Parameters\SupportList,"HWID_23",0x00010000,"VID_0B05&PID_1839&MI_02"
+HKR,Parameters\SupportList,"HWID_24",0x00010000,"VID_0B05&PID_183D&MI_02"
+HKR,Parameters\SupportList,"HWID_25",0x00010000,"VID_0B05&PID_183B&MI_02"
+HKR,Parameters\SupportList,"HWID_26",0x00010000,"VID_0B05&PID_184A&MI_01"
+HKR,Parameters\SupportList,"HWID_27",0x00010000,"VID_0B05&PID_184B&MI_01"
+HKR,Parameters\SupportList,"HWID_28",0x00010000,"VID_0B05&PID_1879&MI_02"
+HKR,Parameters\SupportList,"HWID_29",0x00010000,"VID_04F3&PID_3067&MI_01"
+
+
+[AsusPTPDrv_Service_DelReg]
+HKR,Parameters
+
+[AsusPTPDrv_Service_ALGO_DelReg]
+HKR,Parameters
+
+
+; ---------------------------------------------------------
+; Source Media Section
+; ---------------------------------------------------------
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+AsusPTPFilter.sys = 1
+
+
+; Strings Section
+; ---------------------------------------------------------
+[Strings]
+SPSVCINST_ASSOCSERVICE			= 0x00000002
+VenderName						= "ASUSTek COMPUTER INC."
+AsusPTP.SvcDesc					= "ASUS Touch Service"
+DiskName						= "ASUSWare Driver Disk"
+ASUS_INPUT_DEVICE.DeviceDesc	= "ASUS Precision Touchpad"
+
+
+; Driver Information Entries
+DriverProduct   = "ASUS Touchpad Device Driver"
+

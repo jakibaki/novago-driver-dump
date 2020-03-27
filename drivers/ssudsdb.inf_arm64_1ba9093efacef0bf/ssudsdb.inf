@@ -1,0 +1,204 @@
+;*********************************************************************************************
+;
+; Name		: ssudsdb.inf
+;
+; Function	: Install SAMSUNG Escape USB Samsung Debug Bridge Driver
+;
+; Copyright (c) DEVGURU Co., Ltd. (www.devguru.co.kr)
+;
+;*********************************************************************************************
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = USB
+ClassGuid   = {36FC9E60-c465-11cf-8056-444553540000}
+Provider    = %ProviderName%
+DriverVer=08/23/2019,2.16.12.0
+CatalogFile = ssudsdb.cat
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%ProviderName% = ssud, NTx86, NTx86.6.1, NTamd64, NTamd64.6.1, NTarm64
+
+[ssud.NTx86]
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_685D&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_685E&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6860&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6861&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6862&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6864&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6866&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6867&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686A&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686B&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686C&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_A50B&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\SAMSUNG_MOBILE&SDB
+
+[ssud.NTx86.6.1]
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685D&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685E&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6860&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6861&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6862&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6864&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6866&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6867&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686A&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686C&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_A50B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\SAMSUNG_MOBILE&SDB
+
+[ssud.NTamd64]
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_685D&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_685E&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6860&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6861&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6862&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6864&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6866&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_6867&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686A&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686B&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_686C&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\VID_04E8&PID_A50B&SDB
+%SamsungDebugBridge%     = ssud.Install.CoInst, USB\SAMSUNG_MOBILE&SDB
+
+[ssud.NTamd64.6.1]
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685D&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685E&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6860&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6861&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6862&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6864&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6866&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6867&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686A&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686C&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_A50B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\SAMSUNG_MOBILE&SDB
+
+[ssud.NTarm64]
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685D&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_685E&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6860&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6861&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6862&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6864&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6866&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_6867&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686A&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_686C&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\VID_04E8&PID_A50B&SDB
+%SamsungDebugBridge%     = ssud.Install, USB\SAMSUNG_MOBILE&SDB
+
+; =================== Installation ===================
+
+[ssud.Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[ssud.Install.Services]
+Include    = winusb.inf
+AddService = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[ssud.Install.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[ssud.Install.HW]
+AddReg = Dev_AddReg
+
+
+[ssud.Install.CoInst]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[ssud.Install.CoInst.Services]
+Include    = winusb.inf
+AddService = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[ssud.Install.CoInst.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[ssud.Install.CoInst.HW]
+AddReg = Dev_AddReg
+
+[ssud.Install.CoInst.CoInstallers]
+AddReg    = CoInstallers_AddReg
+CopyFiles = CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01007.dll,WdfCoInstaller","WinUSBCoInstaller.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller.dll
+WdfCoInstaller01007.dll
+
+[ssud.Install.NTarm64]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[ssud.Install.NTarm64.Services]
+Include    = winusb.inf
+AddService = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[ssud.Install.NTarm64.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[ssud.Install.NTarm64.HW]
+AddReg = Dev_AddReg
+
+[ssud.Install.NTarm64.CoInstallers]
+AddReg    = CoInstallers_AddReg_NTarm64
+CopyFiles = CoInstallers_CopyFiles_NTarm64
+
+[CoInstallers_AddReg_NTarm64]
+; No AddReg
+
+[CoInstallers_CopyFiles_NTarm64]
+; No CopyFiles
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+[WinUSB_Install]
+KmdfLibraryVersion = 1.7
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{9CA29F37-DD62-4aad-8265-CFF788C8BA89}"
+
+[DestinationDirs]
+CoInstallers_CopyFiles = 11
+
+; ================= Source Media Section =====================
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\i386
+2 = %DISK_NAME%,,,\amd64
+3 = %DISK_NAME%,,,\arm64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller.dll   = 1
+WdfCoInstaller01007.dll = 1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller.dll   = 2
+WdfCoInstaller01007.dll = 2
+
+[SourceDisksFiles.arm64]
+
+; =================== Strings ===================
+
+[Strings]
+ProviderName       = "SAMSUNG Electronics Co., Ltd."
+SamsungDebugBridge = "SAMSUNG SDB Interface"
+WinUSB_SvcDesc     = "SAMSUNG Android USB Driver"
+DISK_NAME          = "SAMSUNG Android WinUsb installation disk"

@@ -1,0 +1,189 @@
+;======================================================================
+;
+; Copyright (c) ASUSTek Computer Inc. (2018)
+;
+; Module Name:
+;     atkwmiacpiio.inf
+;
+; Abstract:
+;     INF file for installing ATK Package (ASUS Keyboard Hotkeys)
+;
+; Installation Notes:
+;     None
+;
+;======================================================================
+
+[Version]
+Signature		= "$Windows NT$"
+Class                   = System
+ClassGUID               = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider		= "ASUSTek Computer Inc."
+DriverVer		= 01/05/2018,2.0.2.0
+CatalogFile		= atkwmiacpiio.cat
+CatalogFile.ntx86	= atkwmiacpiio.cat
+CatalogFile.ntamd64	= atkwmiacpiio64.cat
+CatalogFile.ntarm64	= atkwmiacpiioarm64.cat
+
+[DestinationDirs]
+DefaultDestDir 		= 12
+PackageCopy32 		= 13
+PackageCopy64 		= 13
+
+[ControlFlags]
+ExcludeFromselect = *
+
+[Manufacturer]
+%MfgName% = ATKP, ntx86, ntamd64, ntarm64
+
+[ATKP.ntx86]
+%DeviceDesc1% = NO_DRV32, ACPI\ASUS7000
+[ATKP.ntamd64]
+%DeviceDesc1% = NO_DRV64, ACPI\ASUS7000
+[ATKP.ntarm64]
+%DeviceDesc1% = NO_DRV64, ACPI\ASUS7000
+
+[NO_DRV32]
+Include = machine.inf
+Needs = NO_DRV
+AddReg = PackageRegAdd
+CopyFiles = PackageCopy32
+
+[NO_DRV64]
+Include = machine.inf
+Needs = NO_DRV
+AddReg = PackageRegAdd
+CopyFiles = PackageCopy64
+
+[NO_DRV32.Services]
+Include = machine.inf
+Needs = NO_DRV.Services
+AddService = ATKWMIACPIIO,0x00000800,ServiceInstDrv32
+AddService = ASLDRService,0x00000800,ServiceInstLdrSrv32
+AddService = AsHidService,0x00000800,ServiceInstHidSrv32
+
+[NO_DRV64.Services]
+Include = machine.inf
+Needs = NO_DRV.Services
+AddService = ATKWMIACPIIO,0x00000800,ServiceInstDrv64
+AddService = ASLDRService,0x00000800,ServiceInstLdrSrv64
+AddService = AsHidService,0x00000800,ServiceInstHidSrv64
+
+[PackageCopy32]
+atkwmiacpi.sys
+AsLdrSrv.exe
+AsHidSrv.exe
+AsHotkeyExec.exe
+AsMonStartupTask.exe
+GeneralTPCfg.exe
+ATKOSD2.exe
+
+[PackageCopy64]
+atkwmiacpi64.sys
+AsLdrSrv64.exe
+AsHidSrv64.exe
+AsHotkeyExec64.exe
+AsMonStartupTask64.exe
+GeneralTPCfg64.exe
+ATKOSD2.exe
+
+[ServiceInstDrv32]
+DisplayName    = "ATKWMIACPI Driver"
+ServiceBinary  = %13%\atkwmiacpi.sys
+ServiceType    = 1
+StartType      = 1
+ErrorControl   = 1
+
+[ServiceInstDrv64]
+DisplayName    = "ATKWMIACPI Driver"
+ServiceBinary  = %13%\atkwmiacpi64.sys
+ServiceType    = 1
+StartType      = 1
+ErrorControl   = 1
+DelReg 	       = CompatibleRegDel
+
+[ServiceInstLdrSrv32]
+DisplayName    = "ASLDR Service"
+ServiceBinary  = %13%\AsLdrSrv.exe
+ServiceType    = 16
+StartType      = 2
+ErrorControl   = 1
+LoadOrderGroup = ShellSvcGroup
+
+[ServiceInstLdrSrv64]
+DisplayName    = "ASLDR Service"
+ServiceBinary  = %13%\AsLdrSrv64.exe
+ServiceType    = 16
+StartType      = 2
+ErrorControl   = 1
+LoadOrderGroup = ShellSvcGroup
+DelReg 	       = CompatibleRegDel
+
+[ServiceInstHidSrv32]
+DisplayName    = "ASUS HID Access Sevice"
+ServiceBinary  = %13%\AsHidSrv.exe
+ServiceType    = 16
+StartType      = 2
+ErrorControl   = 1
+
+[ServiceInstHidSrv64]
+DisplayName    = "ASUS HID Access Sevice"
+ServiceBinary  = %13%\AsHidSrv64.exe
+ServiceType    = 16
+StartType      = 2
+ErrorControl   = 1
+DelReg 	       = CompatibleRegDel
+
+[CompatibleRegDel]
+HKR,, WOW64
+
+[SourceDisksFiles.x86]
+atkwmiacpi.sys = 1
+AsLdrSrv.exe = 1
+AsHidSrv.exe = 1
+AsHotkeyExec.exe = 1
+AsMonStartupTask.exe = 1
+GeneralTPCfg.exe = 1
+ATKOSD2.exe = 1
+
+[SourceDisksFiles.amd64]
+atkwmiacpi64.sys = 1
+AsLdrSrv64.exe = 1
+AsHidSrv64.exe = 1
+AsHotkeyExec64.exe = 1
+AsMonStartupTask64.exe = 1
+GeneralTPCfg64.exe = 1
+ATKOSD2.exe = 1
+
+[SourceDisksFiles.arm64]
+atkwmiacpi64.sys = 1
+AsLdrSrv64.exe = 1
+AsHidSrv64.exe = 1
+AsHotkeyExec64.exe = 1
+AsMonStartupTask64.exe = 1
+GeneralTPCfg64.exe = 1
+ATKOSD2.exe = 1
+
+[SourceDisksNames]
+1 = %MfgName%,,,
+
+[PackageRegAdd]
+HKR, Settings, ChkAdapterTime, 0x00010001, 4000
+HKR, Settings, ChkUSBPortTime, 0x00010001, 1500
+HKR, Settings, DeviceScreenPad, 0x00010001, 3
+HKR, Settings, DeviceTouchpad, 0x00010001, 0
+HKR, Settings, DeviceTrackPoint, 0x00010001, 0
+HKR, Settings, EnableChkAdapter, 0x00010001, 1
+HKR, Settings, EnableChkUSBPort, 0x00010001, 1
+HKR, Settings, FanOverboost, 0x00010001, 0
+HKR, Settings, FnSwitch, 0x00010001, 0
+HKR, Settings, FnSwitchPrompt, 0x00010001, 0
+HKR, Settings, HidKeybdLightLevel, 0x00010001, 129
+HKR, Settings, InstalledDir, 0x0, ""
+HKR, Settings, NKeyRollover, 0x00010001, 1
+HKR, Settings, ShowOSD, 0x00010001, 2
+HKR, Settings, SimplifyKeybdLight, 0x00010001, 2
+HKR, Settings, TurnOffKeybdLight, 0x00010001, 60
+
+[Strings]
+MfgName			= "ASUS"
+DeviceDesc1             = "ATK Package (ASUS Keyboard Hotkeys) Device"

@@ -1,0 +1,43 @@
+;/*++
+;ApnUpdate
+;--*/
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Extension
+ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+ExtensionId={bc89938d-a2f6-4e71-9f82-5ee55a3df5f6}
+Provider=%OEM%
+DriverVer = 05/28/2018,1.0.0000.0012
+CatalogFile=ApnUpdate.cat
+PnpLockDown=1
+
+[DestinationDirs]
+Apn_Dir = 10,Provisioning\Cosa\OEM
+
+[SourceDisksNames]
+1 = %DiskID1%
+
+[SourceDisksFiles]
+oem_apn_mod.ppkg = 1,,
+oem_apn.ppkg = 1,,
+
+[Manufacturer]
+%OEM%=Standard,NTARM64
+
+[Standard.NTARM64]
+; update Apn
+%DeviceDesc%=Apn_Update, ACPI\QCOM003C
+
+[Apn_Update.NT]
+CopyFiles=Apn_Dir
+
+[Apn_Dir]
+oem_apn_mod.ppkg
+oem_apn.ppkg
+
+[Strings]
+OEM = "ASUSTeK Computer Inc."
+DeviceDesc = "Qualcomm Advanced Modem Subsystem Device"
+DiskId1 = "APN Update"
+
